@@ -105,16 +105,16 @@ export function DonationModal({ isOpen, onClose }: DonationModalProps) {
                   </Button>
                 </Card>
 
-                <Card className="p-3 sm:p-4 border-2 border-blue-100">
-                  <h3 className="text-lg sm:text-xl font-semibold text-blue-900 mb-2 sm:mb-3">
-                    Transferência Bancária
+                <Card className="p-3 sm:p-4 bg-white">
+                  <h3 className="text-lg sm:text-xl font-semibold text-blue-600 mb-2 sm:mb-3">
+                  Transferência Bancária
                   </h3>
                   <div className="space-y-2 text-gray-600 text-sm sm:text-base">
-                    <p>Associação Vinícius Carvalheido</p>
-                    <p>Banco: 104 - Caixa Econômica Federal</p>
-                    <p>Tipo de conta: Poupança - Pessoa Física - 1288</p>
-                    <p>Agência: 0671</p>
-                    <p>Conta: 0007863855714</p>
+                  <p>Associação Vinícius Carvalheido</p>
+                  <p>Banco: 104 - Caixa Econômica Federal</p>
+                  <p>Tipo de conta: Poupança - Pessoa Física - 1288</p>
+                  <p>Agência: 0671</p>
+                  <p>Conta: 0007863855714</p>
                   </div>
                 </Card>
               </div>

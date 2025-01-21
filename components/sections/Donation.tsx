@@ -71,8 +71,8 @@ export default function Donation() {
             </Button>
           </Card>
 
-          <Card className="p-8 border-2 border-blue-100">
-            <h3 className="text-xl font-semibold text-blue-900 mb-4">Transferência Bancária</h3>
+            <Card className="p-8 bg-white">
+            <h3 className="text-xl font-semibold text-blue-600 mb-4">Transferência Bancária</h3>
             <div className="text-left max-w-md mx-auto">
               <p className="text-gray-600">Associação Vinícius Carvalheido</p>
               <p className="text-gray-600">Banco: 104 - Caixa Econômica Federal</p>
@@ -80,7 +80,7 @@ export default function Donation() {
               <p className="text-gray-600">Agência: 0671</p>
               <p className="text-gray-600">Conta: 0007863855714</p>
             </div>
-          </Card>
+            </Card>
         </motion.div>
       </div>
     </section>
