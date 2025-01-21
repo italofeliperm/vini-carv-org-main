@@ -1,0 +1,1614 @@
+0 verbose cli /Users/italofelipe/.nvm/versions/node/v23.6.0/bin/node /Users/italofelipe/.nvm/versions/node/v23.6.0/bin/npm
+1 info using npm@9.8.1
+2 info using node@v23.6.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/Users/italofelipe/.nvm/versions/node/v23.6.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/italofelipe/Desktop/vini-carv-org-main/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/Users/italofelipe/.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:/Users/italofelipe/.nvm/versions/node/v23.6.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 13ms
+17 timing npm:load:configload Completed in 14ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i
+22 verbose argv "i"
+23 timing npm:load:setTitle Completed in 27ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/Users/italofelipe/Desktop/vini-carv-org-main/.npm-cache/_logs/2025-01-21T19_46_58_480Z-
+26 verbose logfile /Users/italofelipe/Desktop/vini-carv-org-main/.npm-cache/_logs/2025-01-21T19_46_58_480Z-debug-0.log
+27 timing npm:load:logFile Completed in 11ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 68ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 286ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 timing idealTree:buildDeps Completed in 2ms
+38 timing idealTree:fixDepFlags Completed in 0ms
+39 timing idealTree Completed in 295ms
+40 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+41 timing reify:loadTrees Completed in 483ms
+42 timing reify:diffTrees Completed in 20ms
+43 silly reify mark retired [
+43 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ansi-regex 2'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ansi-styles 2'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/array.prototype 2.flat'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/array.prototype 2.flatmap'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/autoprefixer 2'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/braces 2'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/chalk 2'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/concat-map 2'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/cross-spawn 2'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/chokidar 2'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/debug 2'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/es-define-property 2'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/es-object-atoms 2'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/escape-string-regexp 2'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/eslint-module-utils 2'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/eslint-plugin-jsx-a11y 2'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/eslint-plugin-react-hooks 2'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/esutils 2'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/fast-glob 2'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/fast-levenshtein 2'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/fastq 2'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/flatted 2'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/function-bind 2'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/function.prototype 2.name'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/get-symbol-description 2'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/get-tsconfig 2'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/globalthis 2'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/is-array-buffer 2'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/is-core-module 2'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/is-fullwidth-code-point 2'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/iterator 2.prototype'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/js-yaml 2'
+74 silly reify ]
+75 silly reify mark retired [ '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/levn 2' ]
+76 silly reify mark retired [
+76 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/lilconfig 2'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/lru-cache 2'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/merge2 2'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/minipass 2'
+79 silly reify ]
+80 silly reify mark retired [ '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/mz 2' ]
+81 silly reify mark retired [
+81 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/nanoid 2'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/natural-compare 2'
+82 silly reify ]
+83 silly reify mark retired [ '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/next 2' ]
+84 silly reify mark retired [
+84 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/node-releases 2'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/normalize-range 2'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object 2.groupby'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object 2.entries'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object 2.values'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object-hash 2'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/p-limit 2'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/parent-module 2'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/path-scurry 2'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/picomatch 2'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/postcss 2'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/postcss-js 2'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/postcss-selector-parser 2'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/prelude-ls 2'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/punycode 2'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/resolve-from 2'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/run-parallel 2'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/semver 2'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/signal-exit 2'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/string-width 2'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/string-width-cjs 2'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/string.prototype 2.trimstart'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/strip-ansi 2'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/supports-preserve-symlinks-flag 2'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/tailwindcss 2'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ts-api-utils 2'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ts-interface-checker 2'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/uri-js 2'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/yocto-queue 2'
+112 silly reify ]
+113 silly reify moves {
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ansi-regex 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.ansi-regex 2-Sd0MDMbz',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ansi-styles 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.ansi-styles 2-m1Qg0KwQ',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/array.prototype 2.flat': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.array.prototype 2.flat-4M4hQVe0',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/array.prototype 2.flatmap': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.array.prototype 2.flatmap-3m2UtYZd',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/autoprefixer 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.autoprefixer 2-QytZkuGR',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/braces 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.braces 2-1yxMhE1u',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/chalk 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.chalk 2-ctWlrdkj',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/concat-map 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.concat-map 2-r2wXZr4I',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/cross-spawn 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.cross-spawn 2-MtMZ2S04',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/chokidar 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.chokidar 2-RRlDiE2E',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/debug 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.debug 2-kMMjYFVf',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/es-define-property 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.es-define-property 2-Bi5CoNG8',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/es-object-atoms 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.es-object-atoms 2-Vv31a4xa',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/escape-string-regexp 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.escape-string-regexp 2-Zzfl0uAp',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/eslint-module-utils 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.eslint-module-utils 2-2qvHAQj1',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/eslint-plugin-jsx-a11y 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.eslint-plugin-jsx-a11y 2-rfNxg4Yv',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/eslint-plugin-react-hooks 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.eslint-plugin-react-hooks 2-ABWl7TNE',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/esutils 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.esutils 2-3NJkA7wq',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/fast-glob 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.fast-glob 2-MjjvADBx',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/fast-levenshtein 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.fast-levenshtein 2-HEFOjrXQ',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/fastq 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.fastq 2-JDSh1e59',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/flatted 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.flatted 2-xbxpNWlT',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/function-bind 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.function-bind 2-9YJT5z6g',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/function.prototype 2.name': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.function.prototype 2.name-h0FCe5g3',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/get-symbol-description 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.get-symbol-description 2-fB7joGba',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/get-tsconfig 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.get-tsconfig 2-jr7MKRza',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/globalthis 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.globalthis 2-q6iF6IQE',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/is-array-buffer 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.is-array-buffer 2-q92l1lOv',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/is-core-module 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.is-core-module 2-HIpXYxTB',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/is-fullwidth-code-point 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.is-fullwidth-code-point 2-wqtNp0cN',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/iterator 2.prototype': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.iterator 2.prototype-AVUPJwGg',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/js-yaml 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.js-yaml 2-rOY7riqE',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/levn 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.levn 2-F1zzmPVw',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/lilconfig 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.lilconfig 2-YTsKjmRt',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/lru-cache 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.lru-cache 2-2ItFzLPt',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/merge2 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.merge2 2-90icKk7S',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/minipass 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.minipass 2-Kpk4Ade6',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/mz 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.mz 2-dlIbdr3j',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/nanoid 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.nanoid 2-q26Ef3g4',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/natural-compare 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.natural-compare 2-98s9lK1A',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/next 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.next 2-OEC77UId',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/node-releases 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.node-releases 2-mHgXtMLz',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/normalize-range 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.normalize-range 2-jjs1iAta',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object 2.groupby': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.object 2.groupby-C6S7K31d',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object 2.entries': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.object 2.entries-jGMnSrpL',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object 2.values': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.object 2.values-j1VB5Lp9',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/object-hash 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.object-hash 2-UBBVKCqV',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/p-limit 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.p-limit 2-m5gywCi8',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/parent-module 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.parent-module 2-w2M3EHHR',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/path-scurry 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.path-scurry 2-16ju1m1T',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/picomatch 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.picomatch 2-FOGOihQ6',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/postcss 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.postcss 2-0v2aCHtD',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/postcss-js 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.postcss-js 2-5KpZ3nb5',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/postcss-selector-parser 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.postcss-selector-parser 2-KEIoMjBp',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/prelude-ls 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.prelude-ls 2-qn0NP557',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/punycode 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.punycode 2-chlNLggw',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/resolve-from 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.resolve-from 2-ms3QqrPx',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/run-parallel 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.run-parallel 2-kN93HFEO',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/semver 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.semver 2-WYkc5aF7',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/signal-exit 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.signal-exit 2-0FkCiCnf',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/string-width 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.string-width 2-jmPQne8s',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/string-width-cjs 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.string-width-cjs 2-uA0WEklv',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/string.prototype 2.trimstart': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.string.prototype 2.trimstart-usxPMxOg',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/strip-ansi 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.strip-ansi 2-CgGV6rrE',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/supports-preserve-symlinks-flag 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.supports-preserve-symlinks-flag 2-HF7pSao4',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/tailwindcss 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.tailwindcss 2-uncVHCdb',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ts-api-utils 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.ts-api-utils 2-8o4E0o85',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/ts-interface-checker 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.ts-interface-checker 2-WKzaCx7Z',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/uri-js 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.uri-js 2-UcHjEJ0K',
+113 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/yocto-queue 2': '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/.yocto-queue 2-HjvQaOlA'
+113 silly reify }
+114 timing reify:retireShallow Completed in 25ms
+115 timing reify:createSparse Completed in 22ms
+116 timing reify:loadBundles Completed in 0ms
+117 silly audit bulk request {
+117 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+117 silly audit   '@babel/runtime': [ '7.26.0' ],
+117 silly audit   '@date-fns/tz': [ '1.2.0' ],
+117 silly audit   '@eslint-community/eslint-utils': [ '4.4.1' ],
+117 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+117 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+117 silly audit   '@eslint/js': [ '8.57.1' ],
+117 silly audit   '@floating-ui/core': [ '1.6.9' ],
+117 silly audit   '@floating-ui/dom': [ '1.6.13' ],
+117 silly audit   '@floating-ui/react-dom': [ '2.1.2' ],
+117 silly audit   '@floating-ui/utils': [ '0.2.9' ],
+117 silly audit   '@humanwhocodes/config-array': [ '0.13.0' ],
+117 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+117 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+117 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+117 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+117 silly audit   'strip-ansi': [ '7.1.0', '6.0.1' ],
+117 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+117 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+117 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+117 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+117 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+117 silly audit   '@next/env': [ '14.1.0' ],
+117 silly audit   '@next/eslint-plugin-next': [ '14.1.0' ],
+117 silly audit   '@next/swc-darwin-arm64': [ '14.1.0' ],
+117 silly audit   '@next/swc-darwin-x64': [ '14.1.0' ],
+117 silly audit   '@next/swc-linux-arm64-gnu': [ '14.1.0' ],
+117 silly audit   '@next/swc-linux-arm64-musl': [ '14.1.0' ],
+117 silly audit   '@next/swc-linux-x64-gnu': [ '14.1.0' ],
+117 silly audit   '@next/swc-linux-x64-musl': [ '14.1.0' ],
+117 silly audit   '@next/swc-win32-arm64-msvc': [ '14.1.0' ],
+117 silly audit   '@next/swc-win32-ia32-msvc': [ '14.1.0' ],
+117 silly audit   '@next/swc-win32-x64-msvc': [ '14.1.0' ],
+117 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+117 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+117 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+117 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+117 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+117 silly audit   '@radix-ui/primitive': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-accordion': [ '1.2.2' ],
+117 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.4' ],
+117 silly audit   '@radix-ui/react-arrow': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-avatar': [ '1.1.2' ],
+117 silly audit   '@radix-ui/react-checkbox': [ '1.1.3' ],
+117 silly audit   '@radix-ui/react-collapsible': [ '1.1.2' ],
+117 silly audit   '@radix-ui/react-collection': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-compose-refs': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-context': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-context-menu': [ '2.2.4' ],
+117 silly audit   '@radix-ui/react-dialog': [ '1.1.4' ],
+117 silly audit   '@radix-ui/react-direction': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.3' ],
+117 silly audit   '@radix-ui/react-focus-guards': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-focus-scope': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-id': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-menu': [ '2.1.4' ],
+117 silly audit   '@radix-ui/react-menubar': [ '1.1.4' ],
+117 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.3' ],
+117 silly audit   '@radix-ui/react-popper': [ '1.2.1' ],
+117 silly audit   '@radix-ui/react-portal': [ '1.1.3' ],
+117 silly audit   '@radix-ui/react-presence': [ '1.1.2' ],
+117 silly audit   '@radix-ui/react-primitive': [ '2.0.1' ],
+117 silly audit   '@radix-ui/react-roving-focus': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-slot': [ '1.1.1' ],
+117 silly audit   '@radix-ui/react-switch': [ '1.1.2' ],
+117 silly audit   '@radix-ui/react-toast': [ '1.2.4' ],
+117 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-use-controllable-state': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-use-previous': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-use-rect': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-use-size': [ '1.1.0' ],
+117 silly audit   '@radix-ui/react-visually-hidden': [ '1.1.1' ],
+117 silly audit   '@radix-ui/rect': [ '1.1.0' ],
+117 silly audit   '@rtsao/scc': [ '1.1.0' ],
+117 silly audit   '@rushstack/eslint-patch': [ '1.10.5' ],
+117 silly audit   '@swc/helpers': [ '0.5.2' ],
+117 silly audit   '@types/d3-array': [ '3.2.1' ],
+117 silly audit   '@types/d3-color': [ '3.1.3' ],
+117 silly audit   '@types/d3-ease': [ '3.0.2' ],
+117 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+117 silly audit   '@types/d3-path': [ '3.1.0' ],
+117 silly audit   '@types/d3-scale': [ '4.0.8' ],
+117 silly audit   '@types/d3-shape': [ '3.1.7' ],
+117 silly audit   '@types/d3-time': [ '3.0.4' ],
+117 silly audit   '@types/d3-timer': [ '3.0.2' ],
+117 silly audit   '@types/json5': [ '0.0.29' ],
+117 silly audit   '@types/node': [ '20.17.14' ],
+117 silly audit   '@types/prop-types': [ '15.7.14' ],
+117 silly audit   '@types/react': [ '18.3.18' ],
+117 silly audit   '@types/react-dom': [ '18.3.5' ],
+117 silly audit   '@typescript-eslint/parser': [ '6.21.0' ],
+117 silly audit   '@typescript-eslint/scope-manager': [ '6.21.0' ],
+117 silly audit   '@typescript-eslint/types': [ '6.21.0' ],
+117 silly audit   '@typescript-eslint/typescript-estree': [ '6.21.0' ],
+117 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+117 silly audit   minimatch: [ '9.0.3', '9.0.5', '3.1.2' ],
+117 silly audit   '@typescript-eslint/visitor-keys': [ '6.21.0' ],
+117 silly audit   '@ungap/structured-clone': [ '1.2.1' ],
+117 silly audit   acorn: [ '8.14.0' ],
+117 silly audit   'acorn-jsx': [ '5.3.2' ],
+117 silly audit   ajv: [ '6.12.6' ],
+117 silly audit   'ansi-styles': [ '4.3.0', '6.2.1' ],
+117 silly audit   'any-promise': [ '1.3.0' ],
+117 silly audit   anymatch: [ '3.1.3' ],
+117 silly audit   arg: [ '5.0.2' ],
+117 silly audit   argparse: [ '2.0.1' ],
+117 silly audit   'aria-hidden': [ '1.2.4' ],
+117 silly audit   'aria-query': [ '5.3.2' ],
+117 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+117 silly audit   'array-includes': [ '3.1.8' ],
+117 silly audit   'array-union': [ '2.1.0' ],
+117 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+117 silly audit   'array.prototype.findlastindex': [ '1.2.5' ],
+117 silly audit   'array.prototype.flat': [ '1.3.3' ],
+117 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+117 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+117 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+117 silly audit   'ast-types-flow': [ '0.0.8' ],
+117 silly audit   autoprefixer: [ '10.4.20' ],
+117 silly audit   'available-typed-arrays': [ '1.0.7' ],
+117 silly audit   'axe-core': [ '4.10.2' ],
+117 silly audit   'axobject-query': [ '4.1.0' ],
+117 silly audit   'balanced-match': [ '1.0.2' ],
+117 silly audit   'binary-extensions': [ '2.3.0' ],
+117 silly audit   braces: [ '3.0.3' ],
+117 silly audit   browserslist: [ '4.24.4' ],
+117 silly audit   busboy: [ '1.6.0' ],
+117 silly audit   'call-bind': [ '1.0.8' ],
+117 silly audit   'call-bind-apply-helpers': [ '1.0.1' ],
+117 silly audit   'call-bound': [ '1.0.3' ],
+117 silly audit   callsites: [ '3.1.0' ],
+117 silly audit   'camelcase-css': [ '2.0.1' ],
+117 silly audit   'caniuse-lite': [ '1.0.30001695' ],
+117 silly audit   chalk: [ '4.1.2' ],
+117 silly audit   chokidar: [ '3.6.0' ],
+117 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+117 silly audit   'class-variance-authority': [ '0.7.1' ],
+117 silly audit   'client-only': [ '0.0.1' ],
+117 silly audit   clsx: [ '2.1.1' ],
+117 silly audit   'color-convert': [ '2.0.1' ],
+117 silly audit   'color-name': [ '1.1.4' ],
+117 silly audit   commander: [ '4.1.1' ],
+117 silly audit   'concat-map': [ '0.0.1' ],
+117 silly audit   'cross-spawn': [ '7.0.6' ],
+117 silly audit   cssesc: [ '3.0.0' ],
+117 silly audit   csstype: [ '3.1.3' ],
+117 silly audit   'd3-array': [ '3.2.4' ],
+117 silly audit   'd3-color': [ '3.1.0' ],
+117 silly audit   'd3-ease': [ '3.0.1' ],
+117 silly audit   'd3-format': [ '3.1.0' ],
+117 silly audit   'd3-interpolate': [ '3.0.1' ],
+117 silly audit   'd3-path': [ '3.1.0' ],
+117 silly audit   'd3-scale': [ '4.0.2' ],
+117 silly audit   'd3-shape': [ '3.2.0' ],
+117 silly audit   'd3-time': [ '3.1.0' ],
+117 silly audit   'd3-time-format': [ '4.1.0' ],
+117 silly audit   'd3-timer': [ '3.0.1' ],
+117 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+117 silly audit   'data-view-buffer': [ '1.0.2' ],
+117 silly audit   'data-view-byte-length': [ '1.0.2' ],
+117 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+117 silly audit   'date-fns': [ '4.1.0' ],
+117 silly audit   'date-fns-jalali': [ '4.1.0-0' ],
+117 silly audit   debug: [ '4.4.0', '3.2.7' ],
+117 silly audit   'decimal.js-light': [ '2.5.1' ],
+117 silly audit   'deep-is': [ '0.1.4' ],
+117 silly audit   'define-data-property': [ '1.1.4' ],
+117 silly audit   'define-properties': [ '1.2.1' ],
+117 silly audit   'detect-node-es': [ '1.1.0' ],
+117 silly audit   didyoumean: [ '1.2.2' ],
+117 silly audit   'dir-glob': [ '3.0.1' ],
+117 silly audit   dlv: [ '1.1.3' ],
+117 silly audit   doctrine: [ '3.0.0', '2.1.0' ],
+117 silly audit   'dom-helpers': [ '5.2.1' ],
+117 silly audit   'dunder-proto': [ '1.0.1' ],
+117 silly audit   eastasianwidth: [ '0.2.0' ],
+117 silly audit   'electron-to-chromium': [ '1.5.84' ],
+117 silly audit   'embla-carousel': [ '8.5.2' ],
+117 silly audit   'embla-carousel-react': [ '8.5.2' ],
+117 silly audit   'embla-carousel-reactive-utils': [ '8.5.2' ],
+117 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+117 silly audit   'enhanced-resolve': [ '5.18.0' ],
+117 silly audit   'es-abstract': [ '1.23.9' ],
+117 silly audit   'es-define-property': [ '1.0.1' ],
+117 silly audit   'es-errors': [ '1.3.0' ],
+117 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+117 silly audit   'es-object-atoms': [ '1.1.1' ],
+117 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+117 silly audit   'es-shim-unscopables': [ '1.0.2' ],
+117 silly audit   'es-to-primitive': [ '1.3.0' ],
+117 silly audit   escalade: [ '3.2.0' ],
+117 silly audit   'escape-string-regexp': [ '4.0.0' ],
+117 silly audit   eslint: [ '8.57.1' ],
+117 silly audit   'eslint-config-next': [ '14.1.0' ],
+117 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+117 silly audit   'eslint-import-resolver-typescript': [ '3.7.0' ],
+117 silly audit   'eslint-module-utils': [ '2.12.0' ],
+117 silly audit   'eslint-plugin-import': [ '2.31.0' ],
+117 silly audit   semver: [ '6.3.1', '7.6.3' ],
+117 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+117 silly audit   'eslint-plugin-react': [ '7.37.4' ],
+117 silly audit   'eslint-plugin-react-hooks': [ '5.0.0-canary-7118f5dd7-20230705' ],
+117 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+117 silly audit   'eslint-scope': [ '7.2.2' ],
+117 silly audit   'eslint-visitor-keys': [ '3.4.3' ],
+117 silly audit   espree: [ '9.6.1' ],
+117 silly audit   esquery: [ '1.6.0' ],
+117 silly audit   esrecurse: [ '4.3.0' ],
+117 silly audit   estraverse: [ '5.3.0' ],
+117 silly audit   esutils: [ '2.0.3' ],
+117 silly audit   eventemitter3: [ '4.0.7' ],
+117 silly audit   'fast-deep-equal': [ '3.1.3' ],
+117 silly audit   'fast-equals': [ '5.2.2' ],
+117 silly audit   'fast-glob': [ '3.3.3' ],
+117 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+117 silly audit   'fast-levenshtein': [ '2.0.6' ],
+117 silly audit   fastq: [ '1.18.0' ],
+117 silly audit   'file-entry-cache': [ '6.0.1' ],
+117 silly audit   'fill-range': [ '7.1.1' ],
+117 silly audit   'find-up': [ '5.0.0' ],
+117 silly audit   'flat-cache': [ '3.2.0' ],
+117 silly audit   flatted: [ '3.3.2' ],
+117 silly audit   'for-each': [ '0.3.3' ],
+117 silly audit   'foreground-child': [ '3.3.0' ],
+117 silly audit   'fraction.js': [ '4.3.7' ],
+117 silly audit   'framer-motion': [ '11.18.2' ],
+117 silly audit   'fs.realpath': [ '1.0.0' ],
+117 silly audit   fsevents: [ '2.3.3' ],
+117 silly audit   'function-bind': [ '1.1.2' ],
+117 silly audit   'function.prototype.name': [ '1.1.8' ],
+117 silly audit   'functions-have-names': [ '1.2.3' ],
+117 silly audit   'get-intrinsic': [ '1.2.7' ],
+117 silly audit   'get-nonce': [ '1.0.1' ],
+117 silly audit   'get-proto': [ '1.0.1' ],
+117 silly audit   'get-symbol-description': [ '1.1.0' ],
+117 silly audit   'get-tsconfig': [ '4.10.0' ],
+117 silly audit   glob: [ '10.3.10', '7.2.3' ],
+117 silly audit   globals: [ '13.24.0' ],
+117 silly audit   globalthis: [ '1.0.4' ],
+117 silly audit   globby: [ '11.1.0' ],
+117 silly audit   gopd: [ '1.2.0' ],
+117 silly audit   'graceful-fs': [ '4.2.11' ],
+117 silly audit   graphemer: [ '1.4.0' ],
+117 silly audit   'has-bigints': [ '1.1.0' ],
+117 silly audit   'has-flag': [ '4.0.0' ],
+117 silly audit   'has-property-descriptors': [ '1.0.2' ],
+117 silly audit   'has-proto': [ '1.2.0' ],
+117 silly audit   'has-symbols': [ '1.1.0' ],
+117 silly audit   'has-tostringtag': [ '1.0.2' ],
+117 silly audit   hasown: [ '2.0.2' ],
+117 silly audit   ignore: [ '5.3.2' ],
+117 silly audit   'import-fresh': [ '3.3.0' ],
+117 silly audit   imurmurhash: [ '0.1.4' ],
+117 silly audit   inflight: [ '1.0.6' ],
+117 silly audit   inherits: [ '2.0.4' ],
+117 silly audit   'internal-slot': [ '1.1.0' ],
+117 silly audit   internmap: [ '2.0.3' ],
+117 silly audit   'is-array-buffer': [ '3.0.5' ],
+117 silly audit   'is-async-function': [ '2.1.0' ],
+117 silly audit   'is-bigint': [ '1.1.0' ],
+117 silly audit   'is-binary-path': [ '2.1.0' ],
+117 silly audit   'is-boolean-object': [ '1.2.1' ],
+117 silly audit   'is-bun-module': [ '1.3.0' ],
+117 silly audit   'is-callable': [ '1.2.7' ],
+117 silly audit   'is-core-module': [ '2.16.1' ],
+117 silly audit   'is-data-view': [ '1.0.2' ],
+117 silly audit   'is-date-object': [ '1.1.0' ],
+117 silly audit   'is-extglob': [ '2.1.1' ],
+117 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+117 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+117 silly audit   'is-generator-function': [ '1.1.0' ],
+117 silly audit   'is-glob': [ '4.0.3' ],
+117 silly audit   'is-map': [ '2.0.3' ],
+117 silly audit   'is-number': [ '7.0.0' ],
+117 silly audit   'is-number-object': [ '1.1.1' ],
+117 silly audit   'is-path-inside': [ '3.0.3' ],
+117 silly audit   'is-regex': [ '1.2.1' ],
+117 silly audit   'is-set': [ '2.0.3' ],
+117 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+117 silly audit   'is-string': [ '1.1.1' ],
+117 silly audit   'is-symbol': [ '1.1.1' ],
+117 silly audit   'is-typed-array': [ '1.1.15' ],
+117 silly audit   'is-weakmap': [ '2.0.2' ],
+117 silly audit   'is-weakref': [ '1.1.0' ],
+117 silly audit   'is-weakset': [ '2.0.4' ],
+117 silly audit   isarray: [ '2.0.5' ],
+117 silly audit   isexe: [ '2.0.0' ],
+117 silly audit   'iterator.prototype': [ '1.1.5' ],
+117 silly audit   jackspeak: [ '2.3.6' ],
+117 silly audit   jiti: [ '1.21.7' ],
+117 silly audit   'js-tokens': [ '4.0.0' ],
+117 silly audit   'js-yaml': [ '4.1.0' ],
+117 silly audit   'json-buffer': [ '3.0.1' ],
+117 silly audit   'json-schema-traverse': [ '0.4.1' ],
+117 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+117 silly audit   json5: [ '1.0.2' ],
+117 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+117 silly audit   keyv: [ '4.5.4' ],
+117 silly audit   'language-subtag-registry': [ '0.3.23' ],
+117 silly audit   'language-tags': [ '1.0.9' ],
+117 silly audit   levn: [ '0.4.1' ],
+117 silly audit   lilconfig: [ '3.1.3' ],
+117 silly audit   'lines-and-columns': [ '1.2.4' ],
+117 silly audit   'locate-path': [ '6.0.0' ],
+117 silly audit   lodash: [ '4.17.21' ],
+117 silly audit   'lodash.merge': [ '4.6.2' ],
+117 silly audit   'loose-envify': [ '1.4.0' ],
+117 silly audit   'lru-cache': [ '10.4.3' ],
+117 silly audit   'lucide-react': [ '0.320.0' ],
+117 silly audit   'math-intrinsics': [ '1.1.0' ],
+117 silly audit   merge2: [ '1.4.1' ],
+117 silly audit   micromatch: [ '4.0.8' ],
+117 silly audit   minimist: [ '1.2.8' ],
+117 silly audit   minipass: [ '7.1.2' ],
+117 silly audit   'motion-dom': [ '11.18.1' ],
+117 silly audit   'motion-utils': [ '11.18.1' ],
+117 silly audit   ms: [ '2.1.3' ],
+117 silly audit   mz: [ '2.7.0' ],
+117 silly audit   nanoid: [ '3.3.8' ],
+117 silly audit   'natural-compare': [ '1.4.0' ],
+117 silly audit   next: [ '14.1.0' ],
+117 silly audit   postcss: [ '8.4.31', '8.5.1' ],
+117 silly audit   'node-releases': [ '2.0.19' ],
+117 silly audit   'normalize-path': [ '3.0.0' ],
+117 silly audit   'normalize-range': [ '0.1.2' ],
+117 silly audit   'object-assign': [ '4.1.1' ],
+117 silly audit   'object-hash': [ '3.0.0' ],
+117 silly audit   'object-inspect': [ '1.13.3' ],
+117 silly audit   'object-keys': [ '1.1.1' ],
+117 silly audit   'object.assign': [ '4.1.7' ],
+117 silly audit   'object.entries': [ '1.1.8' ],
+117 silly audit   'object.fromentries': [ '2.0.8' ],
+117 silly audit   'object.groupby': [ '1.0.3' ],
+117 silly audit   'object.values': [ '1.2.1' ],
+117 silly audit   once: [ '1.4.0' ],
+117 silly audit   optionator: [ '0.9.4' ],
+117 silly audit   'own-keys': [ '1.0.1' ],
+117 silly audit   'p-limit': [ '3.1.0' ],
+117 silly audit   'p-locate': [ '5.0.0' ],
+117 silly audit   'parent-module': [ '1.0.1' ],
+117 silly audit   'path-exists': [ '4.0.0' ],
+117 silly audit   'path-is-absolute': [ '1.0.1' ],
+117 silly audit   'path-key': [ '3.1.1' ],
+117 silly audit   'path-parse': [ '1.0.7' ],
+117 silly audit   'path-scurry': [ '1.11.1' ],
+117 silly audit   'path-type': [ '4.0.0' ],
+117 silly audit   picocolors: [ '1.1.1' ],
+117 silly audit   picomatch: [ '2.3.1' ],
+117 silly audit   pify: [ '2.3.0' ],
+117 silly audit   pirates: [ '4.0.6' ],
+117 silly audit   'possible-typed-array-names': [ '1.0.0' ],
+117 silly audit   'postcss-import': [ '15.1.0' ],
+117 silly audit   'postcss-js': [ '4.0.1' ],
+117 silly audit   'postcss-load-config': [ '4.0.2' ],
+117 silly audit   'postcss-nested': [ '6.2.0' ],
+117 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+117 silly audit   'postcss-value-parser': [ '4.2.0' ],
+117 silly audit   'prelude-ls': [ '1.2.1' ],
+117 silly audit   'prop-types': [ '15.8.1' ],
+117 silly audit   punycode: [ '2.3.1' ],
+117 silly audit   'queue-microtask': [ '1.2.3' ],
+117 silly audit   react: [ '18.2.0' ],
+117 silly audit   'react-day-picker': [ '9.5.0' ],
+117 silly audit   'react-dom': [ '18.2.0' ],
+117 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+117 silly audit   'react-remove-scroll': [ '2.6.2' ],
+117 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+117 silly audit   'react-smooth': [ '4.0.4' ],
+117 silly audit   'react-style-singleton': [ '2.2.3' ],
+117 silly audit   'react-transition-group': [ '4.4.5' ],
+117 silly audit   'read-cache': [ '1.0.0' ],
+117 silly audit   readdirp: [ '3.6.0' ],
+117 silly audit   recharts: [ '2.15.0' ],
+117 silly audit   'recharts-scale': [ '0.4.5' ],
+117 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+117 silly audit   'regenerator-runtime': [ '0.14.1' ],
+117 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+117 silly audit   'resolve-from': [ '4.0.0' ],
+117 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+117 silly audit   reusify: [ '1.0.4' ],
+117 silly audit   rimraf: [ '3.0.2' ],
+117 silly audit   'run-parallel': [ '1.2.0' ],
+117 silly audit   'safe-array-concat': [ '1.1.3' ],
+117 silly audit   'safe-push-apply': [ '1.0.0' ],
+117 silly audit   'safe-regex-test': [ '1.1.0' ],
+117 silly audit   scheduler: [ '0.23.2' ],
+117 silly audit   'set-function-length': [ '1.2.2' ],
+117 silly audit   'set-function-name': [ '2.0.2' ],
+117 silly audit   'set-proto': [ '1.0.0' ],
+117 silly audit   'shebang-command': [ '2.0.0' ],
+117 silly audit   'shebang-regex': [ '3.0.0' ],
+117 silly audit   'side-channel': [ '1.1.0' ],
+117 silly audit   'side-channel-list': [ '1.0.0' ],
+117 silly audit   'side-channel-map': [ '1.0.1' ],
+117 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+117 silly audit   'signal-exit': [ '4.1.0' ],
+117 silly audit   slash: [ '3.0.0' ],
+117 silly audit   'source-map-js': [ '1.2.1' ],
+117 silly audit   'stable-hash': [ '0.0.4' ],
+117 silly audit   streamsearch: [ '1.1.0' ],
+117 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+117 silly audit   'string.prototype.includes': [ '2.0.1' ],
+117 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+117 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+117 silly audit   'string.prototype.trim': [ '1.2.10' ],
+117 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+117 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+117 silly audit   'strip-bom': [ '3.0.0' ],
+117 silly audit   'strip-json-comments': [ '3.1.1' ],
+117 silly audit   'styled-jsx': [ '5.1.1' ],
+117 silly audit   sucrase: [ '3.35.0' ],
+117 silly audit   'supports-color': [ '7.2.0' ],
+117 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+117 silly audit   'tailwind-merge': [ '2.6.0' ],
+117 silly audit   tailwindcss: [ '3.4.17' ],
+117 silly audit   'tailwindcss-animate': [ '1.0.7' ],
+117 silly audit   tapable: [ '2.2.1' ],
+117 silly audit   'text-table': [ '0.2.0' ],
+117 silly audit   thenify: [ '3.3.1' ],
+117 silly audit   'thenify-all': [ '1.6.0' ],
+117 silly audit   'tiny-invariant': [ '1.3.3' ],
+117 silly audit   'to-regex-range': [ '5.0.1' ],
+117 silly audit   'ts-api-utils': [ '1.4.3' ],
+117 silly audit   'ts-interface-checker': [ '0.1.13' ],
+117 silly audit   'tsconfig-paths': [ '3.15.0' ],
+117 silly audit   tslib: [ '2.8.1' ],
+117 silly audit   'type-check': [ '0.4.0' ],
+117 silly audit   'type-fest': [ '0.20.2' ],
+117 silly audit   'typed-array-buffer': [ '1.0.3' ],
+117 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+117 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+117 silly audit   'typed-array-length': [ '1.0.7' ],
+117 silly audit   typescript: [ '5.7.3' ],
+117 silly audit   'unbox-primitive': [ '1.1.0' ],
+117 silly audit   'undici-types': [ '6.19.8' ],
+117 silly audit   'update-browserslist-db': [ '1.1.2' ],
+117 silly audit   'uri-js': [ '4.4.1' ],
+117 silly audit   'use-callback-ref': [ '1.3.3' ],
+117 silly audit   'use-sidecar': [ '1.1.3' ],
+117 silly audit   'util-deprecate': [ '1.0.2' ],
+117 silly audit   'victory-vendor': [ '36.9.2' ],
+117 silly audit   which: [ '2.0.2' ],
+117 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+117 silly audit   'which-builtin-type': [ '1.2.1' ],
+117 silly audit   'which-collection': [ '1.0.2' ],
+117 silly audit   'which-typed-array': [ '1.1.18' ],
+117 silly audit   'word-wrap': [ '1.2.5' ],
+117 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+117 silly audit   wrappy: [ '1.0.2' ],
+117 silly audit   yaml: [ '2.7.0' ],
+117 silly audit   'yocto-queue': [ '0.1.0' ]
+117 silly audit }
+118 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-win32-x64-msvc
+119 silly reify mark deleted [
+119 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-win32-x64-msvc'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-win32-ia32-msvc
+121 silly reify mark deleted [
+121 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-win32-ia32-msvc'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-win32-arm64-msvc
+123 silly reify mark deleted [
+123 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-win32-arm64-msvc'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-x64-musl
+125 silly reify mark deleted [
+125 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-x64-musl'
+125 silly reify ]
+126 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-x64-gnu
+127 silly reify mark deleted [
+127 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-x64-gnu'
+127 silly reify ]
+128 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-arm64-musl
+129 silly reify mark deleted [
+129 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-arm64-musl'
+129 silly reify ]
+130 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-arm64-gnu
+131 silly reify mark deleted [
+131 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-linux-arm64-gnu'
+131 silly reify ]
+132 verbose reify failed optional dependency /Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-darwin-arm64
+133 silly reify mark deleted [
+133 silly reify   '/Users/italofelipe/Desktop/vini-carv-org-main/node_modules/@next/swc-darwin-arm64'
+133 silly reify ]
+134 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 108ms
+135 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 109ms
+136 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 109ms
+137 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 109ms
+138 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 109ms
+139 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 109ms
+140 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 110ms
+141 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 109ms
+142 silly tarball no local data for type-check@https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz. Extracting by manifest.
+143 silly tarball no local data for wrap-ansi-cjs@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz. Extracting by manifest.
+144 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-8.1.0.tgz. Extracting by manifest.
+145 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+146 silly tarball no local data for tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-2.6.0.tgz. Extracting by manifest.
+147 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz. Extracting by manifest.
+148 silly tarball no local data for string.prototype.matchall@https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.12.tgz. Extracting by manifest.
+149 silly tarball no local data for string.prototype.includes@https://registry.npmjs.org/string.prototype.includes/-/string.prototype.includes-2.0.1.tgz. Extracting by manifest.
+150 silly tarball no local data for sucrase@https://registry.npmjs.org/sucrase/-/sucrase-3.35.0.tgz. Extracting by manifest.
+151 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+152 silly tarball no local data for side-channel-map@https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz. Extracting by manifest.
+153 silly tarball no local data for side-channel-list@https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz. Extracting by manifest.
+154 silly tarball no local data for set-proto@https://registry.npmjs.org/set-proto/-/set-proto-1.0.0.tgz. Extracting by manifest.
+155 silly tarball no local data for side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz. Extracting by manifest.
+156 silly tarball no local data for set-function-name@https://registry.npmjs.org/set-function-name/-/set-function-name-2.0.2.tgz. Extracting by manifest.
+157 silly tarball no local data for tsconfig-paths@https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz. Extracting by manifest.
+158 silly tarball no local data for set-function-length@https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz. Extracting by manifest.
+159 silly tarball no local data for safe-push-apply@https://registry.npmjs.org/safe-push-apply/-/safe-push-apply-1.0.0.tgz. Extracting by manifest.
+160 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz. Extracting by manifest.
+161 silly tarball no local data for streamsearch@https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz. Extracting by manifest.
+162 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+163 silly tarball no local data for react-style-singleton@https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz. Extracting by manifest.
+164 silly tarball no local data for react-remove-scroll-bar@https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz. Extracting by manifest.
+165 silly tarball no local data for safe-regex-test@https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.1.0.tgz. Extracting by manifest.
+166 silly tarball no local data for react-is@https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz. Extracting by manifest.
+167 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz. Extracting by manifest.
+168 silly tarball no local data for pirates@https://registry.npmjs.org/pirates/-/pirates-4.0.6.tgz. Extracting by manifest.
+169 silly tarball no local data for react-remove-scroll@https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.6.2.tgz. Extracting by manifest.
+170 silly tarball no local data for postcss-value-parser@https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz. Extracting by manifest.
+171 silly tarball no local data for prop-types@https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz. Extracting by manifest.
+172 silly tarball no local data for own-keys@https://registry.npmjs.org/own-keys/-/own-keys-1.0.1.tgz. Extracting by manifest.
+173 silly tarball no local data for object-keys@https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz. Extracting by manifest.
+174 silly tarball no local data for object.assign@https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz. Extracting by manifest.
+175 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.3.tgz. Extracting by manifest.
+176 silly tarball no local data for motion-utils@https://registry.npmjs.org/motion-utils/-/motion-utils-11.18.1.tgz. Extracting by manifest.
+177 silly tarball no local data for motion-dom@https://registry.npmjs.org/motion-dom/-/motion-dom-11.18.1.tgz. Extracting by manifest.
+178 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.320.0.tgz. Extracting by manifest.
+179 silly tarball no local data for math-intrinsics@https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz. Extracting by manifest.
+180 silly tarball no local data for lines-and-columns@https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz. Extracting by manifest.
+181 silly tarball no local data for language-tags@https://registry.npmjs.org/language-tags/-/language-tags-1.0.9.tgz. Extracting by manifest.
+182 silly tarball no local data for jsx-ast-utils@https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz. Extracting by manifest.
+183 silly tarball no local data for language-subtag-registry@https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz. Extracting by manifest.
+184 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+185 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz. Extracting by manifest.
+186 silly tarball no local data for jackspeak@https://registry.npmjs.org/jackspeak/-/jackspeak-2.3.6.tgz. Extracting by manifest.
+187 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz. Extracting by manifest.
+188 silly tarball no local data for is-weakref@https://registry.npmjs.org/is-weakref/-/is-weakref-1.1.0.tgz. Extracting by manifest.
+189 silly tarball no local data for is-typed-array@https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.15.tgz. Extracting by manifest.
+190 silly tarball no local data for is-weakset@https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.4.tgz. Extracting by manifest.
+191 silly tarball no local data for is-string@https://registry.npmjs.org/is-string/-/is-string-1.1.1.tgz. Extracting by manifest.
+192 silly tarball no local data for is-regex@https://registry.npmjs.org/is-regex/-/is-regex-1.2.1.tgz. Extracting by manifest.
+193 silly tarball no local data for is-number-object@https://registry.npmjs.org/is-number-object/-/is-number-object-1.1.1.tgz. Extracting by manifest.
+194 silly tarball no local data for is-map@https://registry.npmjs.org/is-map/-/is-map-2.0.3.tgz. Extracting by manifest.
+195 silly tarball no local data for is-finalizationregistry@https://registry.npmjs.org/is-finalizationregistry/-/is-finalizationregistry-1.1.1.tgz. Extracting by manifest.
+196 silly tarball no local data for optionator@https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz. Extracting by manifest.
+197 silly tarball no local data for is-date-object@https://registry.npmjs.org/is-date-object/-/is-date-object-1.1.0.tgz. Extracting by manifest.
+198 silly tarball no local data for is-bun-module@https://registry.npmjs.org/is-bun-module/-/is-bun-module-1.3.0.tgz. Extracting by manifest.
+199 silly tarball no local data for is-boolean-object@https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.2.1.tgz. Extracting by manifest.
+200 silly tarball no local data for is-async-function@https://registry.npmjs.org/is-async-function/-/is-async-function-2.1.0.tgz. Extracting by manifest.
+201 silly tarball no local data for is-callable@https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz. Extracting by manifest.
+202 silly tarball no local data for is-bigint@https://registry.npmjs.org/is-bigint/-/is-bigint-1.1.0.tgz. Extracting by manifest.
+203 silly tarball no local data for is-data-view@https://registry.npmjs.org/is-data-view/-/is-data-view-1.0.2.tgz. Extracting by manifest.
+204 silly tarball no local data for internal-slot@https://registry.npmjs.org/internal-slot/-/internal-slot-1.1.0.tgz. Extracting by manifest.
+205 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz. Extracting by manifest.
+206 silly tarball no local data for has-proto@https://registry.npmjs.org/has-proto/-/has-proto-1.2.0.tgz. Extracting by manifest.
+207 silly tarball no local data for has-property-descriptors@https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz. Extracting by manifest.
+208 silly tarball no local data for has-tostringtag@https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz. Extracting by manifest.
+209 silly tarball no local data for graphemer@https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz. Extracting by manifest.
+210 silly tarball no local data for has-bigints@https://registry.npmjs.org/has-bigints/-/has-bigints-1.1.0.tgz. Extracting by manifest.
+211 silly tarball no local data for get-nonce@https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz. Extracting by manifest.
+212 silly tarball no local data for gopd@https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz. Extracting by manifest.
+213 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-10.3.10.tgz. Extracting by manifest.
+214 silly tarball no local data for framer-motion@https://registry.npmjs.org/framer-motion/-/framer-motion-11.18.2.tgz. Extracting by manifest.
+215 silly tarball no local data for foreground-child@https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.0.tgz. Extracting by manifest.
+216 silly tarball no local data for fast-json-stable-stringify@https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz. Extracting by manifest.
+217 silly tarball no local data for esquery@https://registry.npmjs.org/esquery/-/esquery-1.6.0.tgz. Extracting by manifest.
+218 silly tarball no local data for eslint-plugin-react@https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.4.tgz. Extracting by manifest.
+219 silly tarball no local data for eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz. Extracting by manifest.
+220 silly tarball no local data for eslint-import-resolver-node@https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz. Extracting by manifest.
+221 silly tarball no local data for eslint-import-resolver-typescript@https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.7.0.tgz. Extracting by manifest.
+222 silly tarball no local data for eslint-plugin-import@https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.31.0.tgz. Extracting by manifest.
+223 silly tarball no local data for escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz. Extracting by manifest.
+224 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz. Extracting by manifest.
+225 silly tarball no local data for es-to-primitive@https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.3.0.tgz. Extracting by manifest.
+226 silly tarball no local data for es-errors@https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz. Extracting by manifest.
+227 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz. Extracting by manifest.
+228 silly tarball no local data for dlv@https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz. Extracting by manifest.
+229 silly tarball no local data for deep-is@https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz. Extracting by manifest.
+230 silly tarball no local data for array.prototype.findlastindex@https://registry.npmjs.org/array.prototype.findlastindex/-/array.prototype.findlastindex-1.2.5.tgz. Extracting by manifest.
+231 silly tarball no local data for aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz. Extracting by manifest.
+232 silly tarball no local data for es-abstract@https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.9.tgz. Extracting by manifest.
+233 silly tarball no local data for ajv@https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz. Extracting by manifest.
+234 silly tarball no local data for @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-6.21.0.tgz. Extracting by manifest.
+235 silly tarball no local data for @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-6.21.0.tgz. Extracting by manifest.
+236 silly tarball no local data for call-bind-apply-helpers@https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.1.tgz. Extracting by manifest.
+237 silly tarball no local data for @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-6.21.0.tgz. Extracting by manifest.
+238 silly tarball no local data for @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-6.21.0.tgz. Extracting by manifest.
+239 silly tarball no local data for @radix-ui/rect@https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.0.tgz. Extracting by manifest.
+240 silly tarball no local data for @radix-ui/react-visually-hidden@https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.1.1.tgz. Extracting by manifest.
+241 silly tarball no local data for @radix-ui/react-use-size@https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.0.tgz. Extracting by manifest.
+242 silly tarball no local data for @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-6.21.0.tgz. Extracting by manifest.
+243 silly tarball no local data for @radix-ui/react-use-previous@https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.1.0.tgz. Extracting by manifest.
+244 silly tarball no local data for @radix-ui/react-use-layout-effect@https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.0.tgz. Extracting by manifest.
+245 silly tarball no local data for @radix-ui/react-use-controllable-state@https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.1.0.tgz. Extracting by manifest.
+246 silly tarball no local data for @radix-ui/react-use-escape-keydown@https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.0.tgz. Extracting by manifest.
+247 silly tarball no local data for @radix-ui/react-use-callback-ref@https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.0.tgz. Extracting by manifest.
+248 silly tarball no local data for @radix-ui/react-toast@https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.4.tgz. Extracting by manifest.
+249 silly tarball no local data for @radix-ui/react-switch@https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.1.2.tgz. Extracting by manifest.
+250 silly tarball no local data for @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.1.1.tgz. Extracting by manifest.
+251 silly tarball no local data for @radix-ui/react-use-rect@https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.0.tgz. Extracting by manifest.
+252 silly tarball no local data for @radix-ui/react-roving-focus@https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.1.tgz. Extracting by manifest.
+253 silly tarball no local data for @radix-ui/react-primitive@https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.0.1.tgz. Extracting by manifest.
+254 silly tarball no local data for @radix-ui/react-portal@https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.3.tgz. Extracting by manifest.
+255 silly tarball no local data for @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.2.tgz. Extracting by manifest.
+256 silly tarball no local data for @radix-ui/react-popper@https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.1.tgz. Extracting by manifest.
+257 silly tarball no local data for @radix-ui/react-id@https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.0.tgz. Extracting by manifest.
+258 silly tarball no local data for @radix-ui/react-menubar@https://registry.npmjs.org/@radix-ui/react-menubar/-/react-menubar-1.1.4.tgz. Extracting by manifest.
+259 silly tarball no local data for @radix-ui/react-navigation-menu@https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.3.tgz. Extracting by manifest.
+260 silly tarball no local data for @radix-ui/react-focus-scope@https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.1.tgz. Extracting by manifest.
+261 silly tarball no local data for @radix-ui/react-dismissable-layer@https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.3.tgz. Extracting by manifest.
+262 silly tarball no local data for @radix-ui/react-direction@https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.0.tgz. Extracting by manifest.
+263 silly tarball no local data for @radix-ui/react-focus-guards@https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.1.tgz. Extracting by manifest.
+264 silly tarball no local data for @radix-ui/react-menu@https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.4.tgz. Extracting by manifest.
+265 silly tarball no local data for @radix-ui/react-context-menu@https://registry.npmjs.org/@radix-ui/react-context-menu/-/react-context-menu-2.2.4.tgz. Extracting by manifest.
+266 silly tarball no local data for @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.4.tgz. Extracting by manifest.
+267 silly tarball no local data for @radix-ui/react-context@https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.1.tgz. Extracting by manifest.
+268 silly tarball no local data for @radix-ui/react-collection@https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.1.tgz. Extracting by manifest.
+269 silly tarball no local data for @radix-ui/react-compose-refs@https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.1.tgz. Extracting by manifest.
+270 silly tarball no local data for @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.2.tgz. Extracting by manifest.
+271 silly tarball no local data for @radix-ui/react-avatar@https://registry.npmjs.org/@radix-ui/react-avatar/-/react-avatar-1.1.2.tgz. Extracting by manifest.
+272 silly tarball no local data for @radix-ui/react-checkbox@https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.1.3.tgz. Extracting by manifest.
+273 silly tarball no local data for @radix-ui/react-aspect-ratio@https://registry.npmjs.org/@radix-ui/react-aspect-ratio/-/react-aspect-ratio-1.1.1.tgz. Extracting by manifest.
+274 silly tarball no local data for @radix-ui/react-alert-dialog@https://registry.npmjs.org/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.1.4.tgz. Extracting by manifest.
+275 silly tarball no local data for @radix-ui/react-arrow@https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.1.tgz. Extracting by manifest.
+276 silly tarball no local data for @radix-ui/react-accordion@https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.2.tgz. Extracting by manifest.
+277 silly tarball no local data for @radix-ui/primitive@https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.1.tgz. Extracting by manifest.
+278 silly tarball no local data for @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-14.1.0.tgz. Extracting by manifest.
+279 silly tarball no local data for @next/swc-darwin-x64@https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.0.tgz. Extracting by manifest.
+280 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-14.1.0.tgz. Extracting by manifest.
+281 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz. Extracting by manifest.
+282 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz. Extracting by manifest.
+283 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.1.tgz. Extracting by manifest.
+284 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.1.0.tgz. Extracting by manifest.
+285 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz. Extracting by manifest.
+286 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz. Extracting by manifest.
+287 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+288 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.5.tgz. Extracting by manifest.
+289 silly tarball no local data for doctrine@https://registry.npmjs.org/doctrine/-/doctrine-2.1.0.tgz. Extracting by manifest.
+290 silly tarball no local data for doctrine@https://registry.npmjs.org/doctrine/-/doctrine-2.1.0.tgz. Extracting by manifest.
+291 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+292 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz. Extracting by manifest.
+293 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-9.0.3.tgz. Extracting by manifest.
+294 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-3.2.7.tgz. Extracting by manifest.
+295 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.1.0.tgz. Extracting by manifest.
+296 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz. Extracting by manifest.
+297 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 630ms
+298 timing auditReport:getReport Completed in 636ms
+299 silly audit report {
+299 silly audit report   next: [
+299 silly audit report     {
+299 silly audit report       id: 1099638,
+299 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+299 silly audit report       title: 'Next.js Cache Poisoning',
+299 silly audit report       severity: 'high',
+299 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+299 silly audit report       cwe: [Array],
+299 silly audit report       cvss: [Object]
+299 silly audit report     },
+299 silly audit report     {
+299 silly audit report       id: 1100421,
+299 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+299 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+299 silly audit report       severity: 'moderate',
+299 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+299 silly audit report       cwe: [Array],
+299 silly audit report       cvss: [Object]
+299 silly audit report     },
+299 silly audit report     {
+299 silly audit report       id: 1101380,
+299 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+299 silly audit report       title: 'Next.js authorization bypass vulnerability',
+299 silly audit report       severity: 'high',
+299 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+299 silly audit report       cwe: [Array],
+299 silly audit report       cvss: [Object]
+299 silly audit report     },
+299 silly audit report     {
+299 silly audit report       id: 1101438,
+299 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+299 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+299 silly audit report       severity: 'moderate',
+299 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+299 silly audit report       cwe: [Array],
+299 silly audit report       cvss: [Object]
+299 silly audit report     },
+299 silly audit report     {
+299 silly audit report       id: 1097295,
+299 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+299 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+299 silly audit report       severity: 'high',
+299 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+299 silly audit report       cwe: [Array],
+299 silly audit report       cvss: [Object]
+299 silly audit report     }
+299 silly audit report   ]
+299 silly audit report }
+300 timing metavuln:cache:get:security-advisory:next:A9m47VBQvL++V9EsVwBseCbPrOK9xk7oLIzrStyVB02IketEwhGsklFuhL1oaYPUn8YGmhlTxpFhF93K/Wfw5Q== Completed in 69ms
+301 timing metavuln:cache:get:security-advisory:next:d2hMvT1neRk1OILN6KsQ2L4sjWpIe19WxzSQJivjdzJVb/hhXgpN5SXMC++Yae4yKIQkpUsP465F2rfLyKo4PA== Completed in 67ms
+302 timing metavuln:cache:get:security-advisory:next:D6WTw+Rp2YFkQ065HbCta60wmL8FISFZuXIwHsy06C4Ka33a+guaJDa6cQ3lv6msO26tV1meNesuiT38Bz8F2g== Completed in 68ms
+303 timing metavuln:cache:get:security-advisory:next:NpdQYf+4OaOvlNiZgkhHLNCcOTe84gjeay11sdJQ2HSe2hRovddeIJqZfGwiLh+ns7klO1J2oxhVS+ou+h9gmw== Completed in 67ms
+304 timing metavuln:cache:get:security-advisory:next:KuoIS+OJYYdcOMvBUpM2m/4qAW2cZRXPz4dIg3E9TqUkPK1mM5snZkK64pq9phR6fTlXb04DR04ka7VXaspoFg== Completed in 67ms
+305 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-8.1.0.tgz 1096ms (cache miss)
+306 timing reifyNode:node_modules/wrap-ansi Completed in 1290ms
+307 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 1098ms (cache miss)
+308 timing reifyNode:node_modules/wrap-ansi-cjs Completed in 1292ms
+309 http fetch GET 200 https://registry.npmjs.org/safe-push-apply/-/safe-push-apply-1.0.0.tgz 1155ms (cache miss)
+310 timing reifyNode:node_modules/safe-push-apply Completed in 1355ms
+311 http fetch GET 200 https://registry.npmjs.org/safe-regex-test/-/safe-regex-test-1.1.0.tgz 1153ms (cache miss)
+312 timing reifyNode:node_modules/safe-regex-test Completed in 1356ms
+313 http fetch GET 200 https://registry.npmjs.org/set-proto/-/set-proto-1.0.0.tgz 1217ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/own-keys/-/own-keys-1.0.1.tgz 1212ms (cache miss)
+315 timing reifyNode:node_modules/own-keys Completed in 1418ms
+316 http fetch GET 200 https://registry.npmjs.org/side-channel-list/-/side-channel-list-1.0.0.tgz 1243ms (cache miss)
+317 timing reifyNode:node_modules/side-channel-list Completed in 1440ms
+318 http fetch GET 200 https://registry.npmjs.org/pirates/-/pirates-4.0.6.tgz 1239ms (cache miss)
+319 timing reifyNode:node_modules/pirates Completed in 1442ms
+320 http fetch GET 200 https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz 1241ms (cache miss)
+321 timing reifyNode:node_modules/react-is Completed in 1443ms
+322 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 1235ms (cache miss)
+323 timing reifyNode:node_modules/js-tokens Completed in 1444ms
+324 http fetch GET 200 https://registry.npmjs.org/side-channel-map/-/side-channel-map-1.0.1.tgz 1273ms (cache miss)
+325 timing reifyNode:node_modules/side-channel-map Completed in 1470ms
+326 http fetch GET 200 https://registry.npmjs.org/set-function-name/-/set-function-name-2.0.2.tgz 1271ms (cache miss)
+327 timing reifyNode:node_modules/set-function-name Completed in 1471ms
+328 http fetch GET 200 https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz 1272ms (cache miss)
+329 timing reifyNode:node_modules/set-function-length Completed in 1472ms
+330 http fetch GET 200 https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz 1266ms (cache miss)
+331 timing reifyNode:node_modules/lines-and-columns Completed in 1474ms
+332 http fetch GET 200 https://registry.npmjs.org/is-finalizationregistry/-/is-finalizationregistry-1.1.1.tgz 1261ms (cache miss)
+333 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz 1265ms (cache miss)
+334 timing reifyNode:node_modules/isexe Completed in 1475ms
+335 timing reifyNode:node_modules/is-finalizationregistry Completed in 1475ms
+336 http fetch GET 200 https://registry.npmjs.org/is-data-view/-/is-data-view-1.0.2.tgz 1262ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz 1260ms (cache miss)
+338 timing reifyNode:node_modules/get-nonce Completed in 1478ms
+339 http fetch GET 200 https://registry.npmjs.org/type-check/-/type-check-0.4.0.tgz 1307ms (cache miss)
+340 timing reifyNode:node_modules/type-check Completed in 1497ms
+341 timing reifyNode:node_modules/set-proto Completed in 1496ms
+342 http fetch GET 200 https://registry.npmjs.org/motion-utils/-/motion-utils-11.18.1.tgz 1292ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/is-weakset/-/is-weakset-2.0.4.tgz 1289ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/is-bun-module/-/is-bun-module-1.3.0.tgz 1286ms (cache miss)
+345 timing reifyNode:node_modules/is-bun-module Completed in 1500ms
+346 http fetch GET 200 https://registry.npmjs.org/is-boolean-object/-/is-boolean-object-1.2.1.tgz 1287ms (cache miss)
+347 http fetch GET 200 https://registry.npmjs.org/is-bigint/-/is-bigint-1.1.0.tgz 1286ms (cache miss)
+348 timing reifyNode:node_modules/is-bigint Completed in 1500ms
+349 http fetch GET 200 https://registry.npmjs.org/is-async-function/-/is-async-function-2.1.0.tgz 1287ms (cache miss)
+350 timing reifyNode:node_modules/is-async-function Completed in 1501ms
+351 http fetch GET 200 https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz 1284ms (cache miss)
+352 timing reifyNode:node_modules/is-weakset Completed in 1533ms
+353 http fetch GET 200 https://registry.npmjs.org/optionator/-/optionator-0.9.4.tgz 1319ms (cache miss)
+354 timing reifyNode:node_modules/optionator Completed in 1536ms
+355 http fetch GET 200 https://registry.npmjs.org/is-map/-/is-map-2.0.3.tgz 1321ms (cache miss)
+356 timing reifyNode:node_modules/is-map Completed in 1533ms
+357 http fetch GET 200 https://registry.npmjs.org/is-number-object/-/is-number-object-1.1.1.tgz 1322ms (cache miss)
+358 timing reifyNode:node_modules/is-number-object Completed in 1534ms
+359 timing reifyNode:node_modules/is-data-view Completed in 1535ms
+360 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-9.2.2.tgz 1312ms (cache miss)
+361 http fetch GET 200 https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz 1313ms (cache miss)
+362 http fetch GET 200 https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz 1383ms (cache miss)
+363 timing reifyNode:node_modules/streamsearch Completed in 1586ms
+364 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.1.0.tgz 1389ms (cache miss)
+365 timing reifyNode:node_modules/side-channel Completed in 1587ms
+366 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.1.0.tgz 1372ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/has-bigints/-/has-bigints-1.1.0.tgz 1375ms (cache miss)
+368 timing reifyNode:node_modules/has-bigints Completed in 1593ms
+369 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 1373ms (cache miss)
+370 http fetch GET 200 https://registry.npmjs.org/string.prototype.includes/-/string.prototype.includes-2.0.1.tgz 1418ms (cache miss)
+371 timing reifyNode:node_modules/string.prototype.includes Completed in 1614ms
+372 timing reifyNode:node_modules/motion-utils Completed in 1616ms
+373 timing reifyNode:node_modules/is-boolean-object Completed in 1616ms
+374 http fetch GET 200 https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz 1401ms (cache miss)
+375 timing reifyNode:node_modules/has-property-descriptors Completed in 1618ms
+376 timing reifyNode:node_modules/gopd Completed in 1617ms
+377 http fetch GET 200 https://registry.npmjs.org/dlv/-/dlv-1.1.3.tgz 1394ms (cache miss)
+378 timing reifyNode:node_modules/dlv Completed in 1615ms
+379 http fetch GET 200 https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.9.tgz 1398ms (cache miss)
+380 timing reifyNode:node_modules/eslint-import-resolver-node Completed in 1617ms
+381 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 1435ms (cache miss)
+382 timing reifyNode:node_modules/eslint-visitor-keys Completed in 1655ms
+383 http fetch GET 200 https://registry.npmjs.org/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.1.tgz 1431ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz 1434ms (cache miss)
+385 timing reifyNode:node_modules/deep-is Completed in 1657ms
+386 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-previous/-/react-use-previous-1.1.0.tgz 1434ms (cache miss)
+387 timing reifyNode:node_modules/@radix-ui/react-use-previous Completed in 1668ms
+388 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-6.21.0.tgz 1485ms (cache miss)
+389 timing reifyNode:node_modules/@typescript-eslint/visitor-keys Completed in 1710ms
+390 http fetch GET 200 https://registry.npmjs.org/@radix-ui/rect/-/rect-1.1.0.tgz 1484ms (cache miss)
+391 timing reifyNode:node_modules/@radix-ui/rect Completed in 1710ms
+392 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/parser/-/parser-6.21.0.tgz 1477ms (cache miss)
+393 timing reifyNode:node_modules/@typescript-eslint/parser Completed in 1711ms
+394 http fetch GET 200 https://registry.npmjs.org/language-tags/-/language-tags-1.0.9.tgz 1514ms (cache miss)
+395 timing reifyNode:node_modules/language-tags Completed in 1723ms
+396 http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 1500ms (cache miss)
+397 timing reifyNode:node_modules/escalade Completed in 1720ms
+398 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.1.1.tgz 1507ms (cache miss)
+399 timing reifyNode:node_modules/@radix-ui/react-slot Completed in 1743ms
+400 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-rect/-/react-use-rect-1.1.0.tgz 1521ms (cache miss)
+401 timing reifyNode:node_modules/@radix-ui/react-use-rect Completed in 1759ms
+402 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-visually-hidden/-/react-visually-hidden-1.1.1.tgz 1568ms (cache miss)
+403 timing reifyNode:node_modules/@radix-ui/react-visually-hidden Completed in 1796ms
+404 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-size/-/react-use-size-1.1.0.tgz 1573ms (cache miss)
+405 timing reifyNode:node_modules/@radix-ui/react-use-size Completed in 1802ms
+406 http fetch GET 200 https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz 1608ms (cache miss)
+407 timing reifyNode:node_modules/object-keys Completed in 1813ms
+408 http fetch GET 200 https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz 1611ms (cache miss)
+409 timing reifyNode:node_modules/postcss-value-parser Completed in 1815ms
+410 http fetch GET 200 https://registry.npmjs.org/is-string/-/is-string-1.1.1.tgz 1602ms (cache miss)
+411 timing reifyNode:node_modules/is-string Completed in 1814ms
+412 http fetch GET 200 https://registry.npmjs.org/array.prototype.findlastindex/-/array.prototype.findlastindex-1.2.5.tgz 1590ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/is-weakref/-/is-weakref-1.1.0.tgz 1635ms (cache miss)
+414 timing reifyNode:node_modules/is-weakref Completed in 1846ms
+415 timing reifyNode:node_modules/has-symbols Completed in 1845ms
+416 timing reifyNode:node_modules/fast-json-stable-stringify Completed in 1845ms
+417 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-switch/-/react-switch-1.1.2.tgz 1607ms (cache miss)
+418 timing reifyNode:node_modules/@radix-ui/react-switch Completed in 1843ms
+419 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.0.tgz 1627ms (cache miss)
+420 timing reifyNode:node_modules/@radix-ui/react-use-callback-ref Completed in 1862ms
+421 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 1688ms (cache miss)
+422 timing reifyNode:node_modules/tslib Completed in 1881ms
+423 http fetch GET 200 https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.15.tgz 1670ms (cache miss)
+424 timing reifyNode:node_modules/is-typed-array Completed in 1881ms
+425 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.0.1.tgz 1653ms (cache miss)
+426 timing reifyNode:node_modules/@radix-ui/react-primitive Completed in 1892ms
+427 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.3.tgz 1654ms (cache miss)
+428 timing reifyNode:node_modules/@radix-ui/react-portal Completed in 1892ms
+429 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.0.tgz 1660ms (cache miss)
+430 timing reifyNode:node_modules/@radix-ui/react-use-layout-effect Completed in 1893ms
+431 http fetch GET 200 https://registry.npmjs.org/is-date-object/-/is-date-object-1.1.0.tgz 1695ms (cache miss)
+432 timing reifyNode:node_modules/is-date-object Completed in 1909ms
+433 timing reifyNode:node_modules/array.prototype.findlastindex Completed in 1909ms
+434 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-popper/-/react-popper-1.2.1.tgz 1685ms (cache miss)
+435 timing reifyNode:node_modules/@radix-ui/react-popper Completed in 1923ms
+436 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.2.tgz 1686ms (cache miss)
+437 timing reifyNode:node_modules/@radix-ui/react-presence Completed in 1924ms
+438 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-direction/-/react-direction-1.1.0.tgz 1680ms (cache miss)
+439 timing reifyNode:node_modules/@radix-ui/react-direction Completed in 1924ms
+440 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-roving-focus/-/react-roving-focus-1.1.1.tgz 1689ms (cache miss)
+441 timing reifyNode:node_modules/@radix-ui/react-roving-focus Completed in 1926ms
+442 http fetch GET 200 https://registry.npmjs.org/internal-slot/-/internal-slot-1.1.0.tgz 1726ms (cache miss)
+443 timing reifyNode:node_modules/internal-slot Completed in 1941ms
+444 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.1.0.tgz 1727ms (cache miss)
+445 timing reifyNode:node_modules/@radix-ui/react-use-controllable-state Completed in 1961ms
+446 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.0.tgz 1722ms (cache miss)
+447 timing reifyNode:node_modules/@radix-ui/react-id Completed in 1961ms
+448 http fetch GET 200 https://registry.npmjs.org/string.prototype.matchall/-/string.prototype.matchall-4.0.12.tgz 1781ms (cache miss)
+449 timing reifyNode:node_modules/string.prototype.matchall Completed in 1977ms
+450 http fetch GET 200 https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz 1763ms (cache miss)
+451 timing reifyNode:node_modules/is-callable Completed in 1978ms
+452 http fetch GET 200 https://registry.npmjs.org/is-regex/-/is-regex-1.2.1.tgz 1802ms (cache miss)
+453 timing reifyNode:node_modules/is-regex Completed in 2013ms
+454 timing reifyNode:node_modules/es-errors Completed in 2010ms
+455 timing reifyNode:node_modules/emoji-regex Completed in 2011ms
+456 timing reifyNode:node_modules/call-bind-apply-helpers Completed in 2011ms
+457 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.1.tgz 1785ms (cache miss)
+458 timing reifyNode:node_modules/@radix-ui/react-focus-scope Completed in 2026ms
+459 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.1.tgz 1783ms (cache miss)
+460 timing reifyNode:node_modules/@radix-ui/react-focus-guards Completed in 2027ms
+461 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.3.tgz 1785ms (cache miss)
+462 timing reifyNode:node_modules/@radix-ui/react-dismissable-layer Completed in 2027ms
+463 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 1844ms (cache miss)
+464 timing reifyNode:node_modules/scheduler Completed in 2045ms
+465 http fetch GET 200 https://registry.npmjs.org/has-proto/-/has-proto-1.2.0.tgz 1827ms (cache miss)
+466 timing reifyNode:node_modules/has-proto Completed in 2043ms
+467 http fetch GET 200 https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz 1826ms (cache miss)
+468 timing reifyNode:node_modules/has-tostringtag Completed in 2044ms
+469 http fetch GET 200 https://registry.npmjs.org/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.7.0.tgz 1822ms (cache miss)
+470 timing reifyNode:node_modules/eslint-import-resolver-typescript Completed in 2042ms
+471 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.1.tgz 1808ms (cache miss)
+472 timing reifyNode:node_modules/@radix-ui/react-compose-refs Completed in 2055ms
+473 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.1.1.tgz 1810ms (cache miss)
+474 timing reifyNode:node_modules/@radix-ui/react-context Completed in 2055ms
+475 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz 1869ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.3.0.tgz 1866ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.2.tgz 1852ms (cache miss)
+478 timing reifyNode:node_modules/@radix-ui/react-collapsible Completed in 2099ms
+479 http fetch GET 200 https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-14.1.0.tgz 1854ms (cache miss)
+480 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.1.0.tgz 1853ms (cache miss)
+481 timing reifyNode:node_modules/wrap-ansi/node_modules/ansi-regex Completed in 2120ms
+482 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-arrow/-/react-arrow-1.1.1.tgz 1869ms (cache miss)
+483 timing reifyNode:node_modules/@radix-ui/react-arrow Completed in 2118ms
+484 http fetch GET 200 https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz 1927ms (cache miss)
+485 timing reifyNode:node_modules/prop-types Completed in 2133ms
+486 timing reifyNode:node_modules/react-remove-scroll-bar Completed in 2133ms
+487 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz 1872ms (cache miss)
+488 timing reifyNode:node_modules/glob/node_modules/brace-expansion Completed in 2133ms
+489 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collection/-/react-collection-1.1.1.tgz 1894ms (cache miss)
+490 timing reifyNode:node_modules/@radix-ui/react-collection Completed in 2139ms
+491 timing reifyNode:node_modules/es-to-primitive Completed in 2148ms
+492 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.1.tgz 1893ms (cache miss)
+493 timing reifyNode:node_modules/wrap-ansi/node_modules/ansi-styles Completed in 2160ms
+494 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-accordion/-/react-accordion-1.2.2.tgz 1911ms (cache miss)
+495 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-checkbox/-/react-checkbox-1.1.3.tgz 1913ms (cache miss)
+496 timing reifyNode:node_modules/@radix-ui/react-checkbox Completed in 2161ms
+497 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 1920ms (cache miss)
+498 timing reifyNode:node_modules/wrap-ansi-cjs/node_modules/emoji-regex Completed in 2197ms
+499 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-14.1.0.tgz 1931ms (cache miss)
+500 timing reifyNode:node_modules/@next/env Completed in 2180ms
+501 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 1929ms (cache miss)
+502 timing reifyNode:node_modules/eslint-plugin-react/node_modules/semver Completed in 2189ms
+503 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-1.1.0.tgz 1954ms (cache miss)
+504 timing reifyNode:node_modules/@radix-ui/react-use-escape-keydown Completed in 2188ms
+505 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-aspect-ratio/-/react-aspect-ratio-1.1.1.tgz 1949ms (cache miss)
+506 timing reifyNode:node_modules/@radix-ui/react-aspect-ratio Completed in 2198ms
+507 http fetch GET 200 https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz 2010ms (cache miss)
+508 http fetch GET 200 https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz 2004ms (cache miss)
+509 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 1952ms (cache miss)
+510 timing reifyNode:node_modules/wrap-ansi-cjs/node_modules/string-width Completed in 2220ms
+511 http fetch GET 200 https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.1.tgz 1956ms (cache miss)
+512 timing reifyNode:node_modules/@radix-ui/primitive Completed in 2204ms
+513 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-context-menu/-/react-context-menu-2.2.4.tgz 1970ms (cache miss)
+514 timing reifyNode:node_modules/react-style-singleton Completed in 2227ms
+515 timing reifyNode:node_modules/@radix-ui/react-accordion Completed in 2218ms
+516 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz 1971ms (cache miss)
+517 timing reifyNode:node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion Completed in 2232ms
+518 timing reifyNode:node_modules/@radix-ui/react-context-menu Completed in 2241ms
+519 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 1992ms (cache miss)
+520 timing reifyNode:node_modules/eslint-plugin-import/node_modules/debug Completed in 2253ms
+521 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.4.tgz 2015ms (cache miss)
+522 timing reifyNode:node_modules/@radix-ui/react-dialog Completed in 2259ms
+523 timing reifyNode:node_modules/math-intrinsics Completed in 2273ms
+524 http fetch GET 200 https://registry.npmjs.org/doctrine/-/doctrine-2.1.0.tgz 2012ms (cache miss)
+525 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.1.0.tgz 2012ms (cache miss)
+526 timing reifyNode:node_modules/wrap-ansi/node_modules/strip-ansi Completed in 2284ms
+527 http fetch GET 200 https://registry.npmjs.org/jackspeak/-/jackspeak-2.3.6.tgz 2084ms (cache miss)
+528 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 2030ms (cache miss)
+529 timing reifyNode:node_modules/eslint-import-resolver-node/node_modules/debug Completed in 2291ms
+530 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-alert-dialog/-/react-alert-dialog-1.1.4.tgz 2047ms (cache miss)
+531 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/types/-/types-6.21.0.tgz 2080ms (cache miss)
+532 http fetch GET 200 https://registry.npmjs.org/doctrine/-/doctrine-2.1.0.tgz 2048ms (cache miss)
+533 timing reifyNode:node_modules/eslint-plugin-import/node_modules/doctrine Completed in 2309ms
+534 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 2069ms (cache miss)
+535 timing reifyNode:node_modules/eslint-plugin-import/node_modules/semver Completed in 2329ms
+536 http fetch GET 200 https://registry.npmjs.org/object.assign/-/object.assign-4.1.7.tgz 2149ms (cache miss)
+537 timing reifyNode:node_modules/object.assign Completed in 2355ms
+538 timing reifyNode:node_modules/jackspeak Completed in 2355ms
+539 timing reifyNode:node_modules/eslint-plugin-react/node_modules/doctrine Completed in 2355ms
+540 timing reifyNode:node_modules/@radix-ui/react-alert-dialog Completed in 2361ms
+541 http fetch GET 200 https://registry.npmjs.org/foreground-child/-/foreground-child-3.3.0.tgz 2151ms (cache miss)
+542 timing reifyNode:node_modules/@typescript-eslint/types Completed in 2366ms
+543 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-menu/-/react-menu-2.1.4.tgz 2140ms (cache miss)
+544 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-avatar/-/react-avatar-1.1.2.tgz 2155ms (cache miss)
+545 timing reifyNode:node_modules/@radix-ui/react-avatar Completed in 2403ms
+546 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.3.tgz 2221ms (cache miss)
+547 timing reifyNode:node_modules/object-inspect Completed in 2428ms
+548 timing reifyNode:node_modules/foreground-child Completed in 2424ms
+549 timing reifyNode:node_modules/@radix-ui/react-menu Completed in 2429ms
+550 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 2245ms (cache miss)
+551 timing reifyNode:node_modules/source-map-js Completed in 2442ms
+552 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-menubar/-/react-menubar-1.1.4.tgz 2194ms (cache miss)
+553 timing reifyNode:node_modules/@radix-ui/react-menubar Completed in 2465ms
+554 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-navigation-menu/-/react-navigation-menu-1.2.3.tgz 2230ms (cache miss)
+555 timing reifyNode:node_modules/@radix-ui/react-navigation-menu Completed in 2493ms
+556 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-toast/-/react-toast-1.2.4.tgz 2271ms (cache miss)
+557 timing reifyNode:node_modules/@radix-ui/react-toast Completed in 2506ms
+558 timing reifyNode:node_modules/@next/eslint-plugin-next Completed in 2507ms
+559 http fetch GET 200 https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz 2392ms (cache miss)
+560 timing reifyNode:node_modules/graphemer Completed in 2625ms
+561 http fetch GET 200 https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.6.2.tgz 2467ms (cache miss)
+562 http fetch GET 200 https://registry.npmjs.org/esquery/-/esquery-1.6.0.tgz 2454ms (cache miss)
+563 timing reifyNode:node_modules/react-remove-scroll Completed in 2688ms
+564 timing reifyNode:node_modules/esquery Completed in 2687ms
+565 http fetch GET 200 https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-2.6.0.tgz 2599ms (cache miss)
+566 timing reifyNode:node_modules/tailwind-merge Completed in 2793ms
+567 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-9.0.5.tgz 2552ms (cache miss)
+568 timing reifyNode:node_modules/glob/node_modules/minimatch Completed in 2826ms
+569 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-10.3.10.tgz 2614ms (cache miss)
+570 timing reifyNode:node_modules/glob Completed in 2843ms
+571 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz 2667ms (cache miss)
+572 timing reifyNode:node_modules/styled-jsx Completed in 2861ms
+573 http fetch GET 200 https://registry.npmjs.org/tsconfig-paths/-/tsconfig-paths-3.15.0.tgz 2672ms (cache miss)
+574 timing reifyNode:node_modules/tsconfig-paths Completed in 2872ms
+575 http fetch GET 200 https://registry.npmjs.org/motion-dom/-/motion-dom-11.18.1.tgz 2708ms (cache miss)
+576 timing reifyNode:node_modules/motion-dom Completed in 2915ms
+577 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-9.0.3.tgz 2653ms (cache miss)
+578 timing reifyNode:node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch Completed in 2912ms
+579 http fetch GET 200 https://registry.npmjs.org/jsx-ast-utils/-/jsx-ast-utils-3.3.5.tgz 2769ms (cache miss)
+580 timing reifyNode:node_modules/jsx-ast-utils Completed in 2978ms
+581 http fetch GET 200 https://registry.npmjs.org/language-subtag-registry/-/language-subtag-registry-0.3.23.tgz 2775ms (cache miss)
+582 timing reifyNode:node_modules/language-subtag-registry Completed in 2984ms
+583 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 2916ms (cache miss)
+584 timing reifyNode:node_modules/jiti Completed in 3133ms
+585 http fetch GET 200 https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz 2937ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz 2939ms (cache miss)
+587 timing reifyNode:node_modules/ajv Completed in 3164ms
+588 timing reifyNode:node_modules/aria-query Completed in 3167ms
+589 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-6.21.0.tgz 2983ms (cache miss)
+590 timing reifyNode:node_modules/@typescript-eslint/typescript-estree Completed in 3217ms
+591 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz 3064ms (cache miss)
+592 timing reifyNode:node_modules/resolve Completed in 3265ms
+593 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.5.tgz 3048ms (cache miss)
+594 timing reifyNode:node_modules/eslint-plugin-react/node_modules/resolve Completed in 3317ms
+595 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-import/-/eslint-plugin-import-2.31.0.tgz 3172ms (cache miss)
+596 timing reifyNode:node_modules/eslint-plugin-import Completed in 3406ms
+597 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz 3433ms (cache miss)
+598 timing reifyNode:node_modules/react-dom Completed in 3640ms
+599 http fetch GET 200 https://registry.npmjs.org/sucrase/-/sucrase-3.35.0.tgz 3449ms (cache miss)
+600 timing reifyNode:node_modules/sucrase Completed in 3655ms
+601 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-7.37.4.tgz 3742ms (cache miss)
+602 timing reifyNode:node_modules/eslint-plugin-react Completed in 3961ms
+603 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-6.21.0.tgz 3865ms (cache miss)
+604 timing reifyNode:node_modules/@typescript-eslint/scope-manager Completed in 4094ms
+605 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz 4075ms (cache miss)
+606 warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+607 timing reifyNode:node_modules/eslint Completed in 4301ms
+608 http fetch GET 200 https://registry.npmjs.org/framer-motion/-/framer-motion-11.18.2.tgz 4141ms (cache miss)
+609 timing reifyNode:node_modules/framer-motion Completed in 4361ms
+610 http fetch GET 200 https://registry.npmjs.org/next 4001ms (cache miss)
+611 timing metavuln:packument:next Completed in 4338ms
+612 timing metavuln:load:security-advisory:next:1099638 Completed in 134ms
+613 timing metavuln:load:security-advisory:next:1100421 Completed in 223ms
+614 timing metavuln:load:security-advisory:next:1101380 Completed in 217ms
+615 timing metavuln:load:security-advisory:next:1101438 Completed in 114ms
+616 timing metavuln:load:security-advisory:next:1097295 Completed in 115ms
+617 timing metavuln:cache:put:security-advisory:next:d2hMvT1neRk1OILN6KsQ2L4sjWpIe19WxzSQJivjdzJVb/hhXgpN5SXMC++Yae4yKIQkpUsP465F2rfLyKo4PA== Completed in 476ms
+618 timing metavuln:calculate:security-advisory:next:1100421 Completed in 5171ms
+619 timing metavuln:cache:put:security-advisory:next:D6WTw+Rp2YFkQ065HbCta60wmL8FISFZuXIwHsy06C4Ka33a+guaJDa6cQ3lv6msO26tV1meNesuiT38Bz8F2g== Completed in 258ms
+620 timing metavuln:calculate:security-advisory:next:1101380 Completed in 5178ms
+621 timing metavuln:cache:put:security-advisory:next:A9m47VBQvL++V9EsVwBseCbPrOK9xk7oLIzrStyVB02IketEwhGsklFuhL1oaYPUn8YGmhlTxpFhF93K/Wfw5Q== Completed in 708ms
+622 timing metavuln:calculate:security-advisory:next:1099638 Completed in 5181ms
+623 timing metavuln:cache:put:security-advisory:next:KuoIS+OJYYdcOMvBUpM2m/4qAW2cZRXPz4dIg3E9TqUkPK1mM5snZkK64pq9phR6fTlXb04DR04ka7VXaspoFg== Completed in 32ms
+624 timing metavuln:calculate:security-advisory:next:1097295 Completed in 5179ms
+625 timing metavuln:cache:put:security-advisory:next:NpdQYf+4OaOvlNiZgkhHLNCcOTe84gjeay11sdJQ2HSe2hRovddeIJqZfGwiLh+ns7klO1J2oxhVS+ou+h9gmw== Completed in 149ms
+626 timing metavuln:calculate:security-advisory:next:1101438 Completed in 5180ms
+627 timing auditReport:init Completed in 5266ms
+628 timing reify:audit Completed in 5906ms
+629 http fetch GET 200 https://registry.npmjs.org/es-abstract/-/es-abstract-1.23.9.tgz 6424ms (cache miss)
+630 timing reifyNode:node_modules/es-abstract Completed in 6649ms
+631 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.320.0.tgz 7466ms (cache miss)
+632 timing reifyNode:node_modules/lucide-react Completed in 7673ms
+633 http fetch GET 200 https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-14.1.0.tgz 7742ms (cache miss)
+634 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 7991ms
+635 timing reify:unpack Completed in 8009ms
+636 timing reify:unretire Completed in 1ms
+637 timing build:queue Completed in 11ms
+638 timing build:link:node_modules/eslint Completed in 4ms
+639 timing build:link:node_modules/glob Completed in 3ms
+640 timing build:link:node_modules/jiti Completed in 2ms
+641 timing build:link:node_modules/resolve Completed in 2ms
+642 timing build:link:node_modules/sucrase Completed in 3ms
+643 timing build:link:node_modules/eslint-plugin-react/node_modules/resolve Completed in 5ms
+644 timing build:link:node_modules/eslint-plugin-import/node_modules/semver Completed in 5ms
+645 timing build:link:node_modules/eslint-plugin-react/node_modules/semver Completed in 4ms
+646 timing build:link Completed in 7ms
+647 timing build:deps Completed in 20ms
+648 timing build Completed in 21ms
+649 timing reify:build Completed in 22ms
+650 timing reify:trash Completed in 9ms
+651 timing reify:save Completed in 197ms
+652 timing reify Completed in 8939ms
+653 silly ADD node_modules/wrap-ansi-cjs
+654 silly ADD node_modules/wrap-ansi-cjs/node_modules/string-width
+655 silly ADD node_modules/wrap-ansi-cjs/node_modules/emoji-regex
+656 silly ADD node_modules/wrap-ansi
+657 silly ADD node_modules/wrap-ansi/node_modules/strip-ansi
+658 silly ADD node_modules/wrap-ansi/node_modules/ansi-styles
+659 silly ADD node_modules/wrap-ansi/node_modules/ansi-regex
+660 silly ADD node_modules/type-check
+661 silly ADD node_modules/tslib
+662 silly ADD node_modules/tsconfig-paths
+663 silly ADD node_modules/tailwind-merge
+664 silly ADD node_modules/sucrase
+665 silly ADD node_modules/styled-jsx
+666 silly ADD node_modules/string.prototype.matchall
+667 silly ADD node_modules/string.prototype.includes
+668 silly ADD node_modules/streamsearch
+669 silly ADD node_modules/source-map-js
+670 silly ADD node_modules/side-channel-map
+671 silly ADD node_modules/side-channel-list
+672 silly ADD node_modules/side-channel
+673 silly ADD node_modules/set-proto
+674 silly ADD node_modules/set-function-name
+675 silly ADD node_modules/set-function-length
+676 silly ADD node_modules/scheduler
+677 silly ADD node_modules/safe-regex-test
+678 silly ADD node_modules/safe-push-apply
+679 silly ADD node_modules/resolve
+680 silly ADD node_modules/react-style-singleton
+681 silly ADD node_modules/react-remove-scroll-bar
+682 silly ADD node_modules/react-remove-scroll
+683 silly ADD node_modules/react-is
+684 silly ADD node_modules/react-dom
+685 silly ADD node_modules/prop-types
+686 silly ADD node_modules/postcss-value-parser
+687 silly ADD node_modules/pirates
+688 silly ADD node_modules/own-keys
+689 silly ADD node_modules/optionator
+690 silly ADD node_modules/object.assign
+691 silly ADD node_modules/object-keys
+692 silly ADD node_modules/object-inspect
+693 silly ADD node_modules/motion-utils
+694 silly ADD node_modules/motion-dom
+695 silly ADD node_modules/math-intrinsics
+696 silly ADD node_modules/lucide-react
+697 silly ADD node_modules/lines-and-columns
+698 silly ADD node_modules/language-tags
+699 silly ADD node_modules/language-subtag-registry
+700 silly ADD node_modules/jsx-ast-utils
+701 silly ADD node_modules/js-tokens
+702 silly ADD node_modules/jiti
+703 silly ADD node_modules/jackspeak
+704 silly ADD node_modules/isexe
+705 silly ADD node_modules/is-weakset
+706 silly ADD node_modules/is-weakref
+707 silly ADD node_modules/is-typed-array
+708 silly ADD node_modules/is-string
+709 silly ADD node_modules/is-regex
+710 silly ADD node_modules/is-number-object
+711 silly ADD node_modules/is-map
+712 silly ADD node_modules/is-finalizationregistry
+713 silly ADD node_modules/is-date-object
+714 silly ADD node_modules/is-data-view
+715 silly ADD node_modules/is-callable
+716 silly ADD node_modules/is-bun-module
+717 silly ADD node_modules/is-boolean-object
+718 silly ADD node_modules/is-bigint
+719 silly ADD node_modules/is-async-function
+720 silly ADD node_modules/internal-slot
+721 silly ADD node_modules/has-tostringtag
+722 silly ADD node_modules/has-symbols
+723 silly ADD node_modules/has-proto
+724 silly ADD node_modules/has-property-descriptors
+725 silly ADD node_modules/has-bigints
+726 silly ADD node_modules/graphemer
+727 silly ADD node_modules/gopd
+728 silly ADD node_modules/glob
+729 silly ADD node_modules/glob/node_modules/minimatch
+730 silly ADD node_modules/glob/node_modules/brace-expansion
+731 silly ADD node_modules/get-nonce
+732 silly ADD node_modules/framer-motion
+733 silly ADD node_modules/foreground-child
+734 silly ADD node_modules/fast-json-stable-stringify
+735 silly ADD node_modules/esquery
+736 silly ADD node_modules/eslint-visitor-keys
+737 silly ADD node_modules/eslint-plugin-react
+738 silly ADD node_modules/eslint-plugin-react/node_modules/semver
+739 silly ADD node_modules/eslint-plugin-react/node_modules/resolve
+740 silly ADD node_modules/eslint-plugin-react/node_modules/doctrine
+741 silly ADD node_modules/eslint-plugin-import
+742 silly ADD node_modules/eslint-plugin-import/node_modules/semver
+743 silly ADD node_modules/eslint-plugin-import/node_modules/doctrine
+744 silly ADD node_modules/eslint-plugin-import/node_modules/debug
+745 silly ADD node_modules/eslint-import-resolver-typescript
+746 silly ADD node_modules/eslint-import-resolver-node
+747 silly ADD node_modules/eslint-import-resolver-node/node_modules/debug
+748 silly ADD node_modules/eslint
+749 silly ADD node_modules/escalade
+750 silly ADD node_modules/es-to-primitive
+751 silly ADD node_modules/es-errors
+752 silly ADD node_modules/es-abstract
+753 silly ADD node_modules/emoji-regex
+754 silly ADD node_modules/dlv
+755 silly ADD node_modules/deep-is
+756 silly ADD node_modules/call-bind-apply-helpers
+757 silly ADD node_modules/array.prototype.findlastindex
+758 silly ADD node_modules/aria-query
+759 silly ADD node_modules/ajv
+760 silly ADD node_modules/@typescript-eslint/visitor-keys
+761 silly ADD node_modules/@typescript-eslint/typescript-estree
+762 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch
+763 silly ADD node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion
+764 silly ADD node_modules/@typescript-eslint/types
+765 silly ADD node_modules/@typescript-eslint/scope-manager
+766 silly ADD node_modules/@typescript-eslint/parser
+767 silly ADD node_modules/@radix-ui/rect
+768 silly ADD node_modules/@radix-ui/react-visually-hidden
+769 silly ADD node_modules/@radix-ui/react-use-size
+770 silly ADD node_modules/@radix-ui/react-use-rect
+771 silly ADD node_modules/@radix-ui/react-use-previous
+772 silly ADD node_modules/@radix-ui/react-use-layout-effect
+773 silly ADD node_modules/@radix-ui/react-use-escape-keydown
+774 silly ADD node_modules/@radix-ui/react-use-controllable-state
+775 silly ADD node_modules/@radix-ui/react-use-callback-ref
+776 silly ADD node_modules/@radix-ui/react-toast
+777 silly ADD node_modules/@radix-ui/react-switch
+778 silly ADD node_modules/@radix-ui/react-slot
+779 silly ADD node_modules/@radix-ui/react-roving-focus
+780 silly ADD node_modules/@radix-ui/react-primitive
+781 silly ADD node_modules/@radix-ui/react-presence
+782 silly ADD node_modules/@radix-ui/react-portal
+783 silly ADD node_modules/@radix-ui/react-popper
+784 silly ADD node_modules/@radix-ui/react-navigation-menu
+785 silly ADD node_modules/@radix-ui/react-menubar
+786 silly ADD node_modules/@radix-ui/react-menu
+787 silly ADD node_modules/@radix-ui/react-id
+788 silly ADD node_modules/@radix-ui/react-focus-scope
+789 silly ADD node_modules/@radix-ui/react-focus-guards
+790 silly ADD node_modules/@radix-ui/react-dismissable-layer
+791 silly ADD node_modules/@radix-ui/react-direction
+792 silly ADD node_modules/@radix-ui/react-dialog
+793 silly ADD node_modules/@radix-ui/react-context-menu
+794 silly ADD node_modules/@radix-ui/react-context
+795 silly ADD node_modules/@radix-ui/react-compose-refs
+796 silly ADD node_modules/@radix-ui/react-collection
+797 silly ADD node_modules/@radix-ui/react-collapsible
+798 silly ADD node_modules/@radix-ui/react-checkbox
+799 silly ADD node_modules/@radix-ui/react-avatar
+800 silly ADD node_modules/@radix-ui/react-aspect-ratio
+801 silly ADD node_modules/@radix-ui/react-arrow
+802 silly ADD node_modules/@radix-ui/react-alert-dialog
+803 silly ADD node_modules/@radix-ui/react-accordion
+804 silly ADD node_modules/@radix-ui/primitive
+805 silly ADD
+806 silly ADD
+807 silly ADD
+808 silly ADD
+809 silly ADD
+810 silly ADD
+811 silly ADD
+812 silly ADD node_modules/@next/swc-darwin-x64
+813 silly ADD
+814 silly ADD node_modules/@next/eslint-plugin-next
+815 silly ADD node_modules/@next/env
+816 silly REMOVE node_modules/yocto-queue 2
+817 silly REMOVE node_modules/uri-js 2
+818 silly REMOVE node_modules/ts-interface-checker 2
+819 silly REMOVE node_modules/ts-api-utils 2
+820 silly REMOVE node_modules/tailwindcss 2
+821 silly REMOVE node_modules/supports-preserve-symlinks-flag 2
+822 silly REMOVE node_modules/strip-ansi 2
+823 silly REMOVE node_modules/string.prototype 2.trimstart
+824 silly REMOVE node_modules/string-width-cjs 2
+825 silly REMOVE node_modules/string-width 2
+826 silly REMOVE node_modules/signal-exit 2
+827 silly REMOVE node_modules/semver 2
+828 silly REMOVE node_modules/run-parallel 2
+829 silly REMOVE node_modules/resolve-from 2
+830 silly REMOVE node_modules/punycode 2
+831 silly REMOVE node_modules/prelude-ls 2
+832 silly REMOVE node_modules/postcss-selector-parser 2
+833 silly REMOVE node_modules/postcss-js 2
+834 silly REMOVE node_modules/postcss 2
+835 silly REMOVE node_modules/picomatch 2
+836 silly REMOVE node_modules/path-scurry 2
+837 silly REMOVE node_modules/parent-module 2
+838 silly REMOVE node_modules/p-limit 2
+839 silly REMOVE node_modules/object-hash 2
+840 silly REMOVE node_modules/object 2.values
+841 silly REMOVE node_modules/object 2.entries
+842 silly REMOVE node_modules/object 2.groupby
+843 silly REMOVE node_modules/normalize-range 2
+844 silly REMOVE node_modules/node-releases 2
+845 silly REMOVE node_modules/next 2
+846 silly REMOVE node_modules/natural-compare 2
+847 silly REMOVE node_modules/nanoid 2
+848 silly REMOVE node_modules/mz 2
+849 silly REMOVE node_modules/minipass 2
+850 silly REMOVE node_modules/merge2 2
+851 silly REMOVE node_modules/lru-cache 2
+852 silly REMOVE node_modules/lilconfig 2
+853 silly REMOVE node_modules/levn 2
+854 silly REMOVE node_modules/js-yaml 2
+855 silly REMOVE node_modules/iterator 2.prototype
+856 silly REMOVE node_modules/is-fullwidth-code-point 2
+857 silly REMOVE node_modules/is-core-module 2
+858 silly REMOVE node_modules/is-array-buffer 2
+859 silly REMOVE node_modules/globalthis 2
+860 silly REMOVE node_modules/get-tsconfig 2
+861 silly REMOVE node_modules/get-symbol-description 2
+862 silly REMOVE node_modules/function.prototype 2.name
+863 silly REMOVE node_modules/function-bind 2
+864 silly REMOVE node_modules/flatted 2
+865 silly REMOVE node_modules/fastq 2
+866 silly REMOVE node_modules/fast-levenshtein 2
+867 silly REMOVE node_modules/fast-glob 2
+868 silly REMOVE node_modules/esutils 2
+869 silly REMOVE node_modules/eslint-plugin-react-hooks 2
+870 silly REMOVE node_modules/eslint-plugin-jsx-a11y 2
+871 silly REMOVE node_modules/eslint-module-utils 2
+872 silly REMOVE node_modules/escape-string-regexp 2
+873 silly REMOVE node_modules/es-object-atoms 2
+874 silly REMOVE node_modules/es-define-property 2
+875 silly REMOVE node_modules/debug 2
+876 silly REMOVE node_modules/chokidar 2
+877 silly REMOVE node_modules/cross-spawn 2
+878 silly REMOVE node_modules/concat-map 2
+879 silly REMOVE node_modules/chalk 2
+880 silly REMOVE node_modules/braces 2
+881 silly REMOVE node_modules/autoprefixer 2
+882 silly REMOVE node_modules/array.prototype 2.flatmap
+883 silly REMOVE node_modules/array.prototype 2.flat
+884 silly REMOVE node_modules/ansi-styles 2
+885 silly REMOVE node_modules/ansi-regex 2
+886 timing command:i Completed in 9054ms
+887 verbose exit 0
+888 timing npm Completed in 9392ms
+889 info ok
