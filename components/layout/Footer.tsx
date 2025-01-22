@@ -29,7 +29,7 @@ const socialLinks = {
 
 export function Footer() {
   return (
-    <footer className="bg-white text-gray-600 py-12 border-t">
+    <footer className="bg-white text-gray-600 py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Logo e Descrição */}
@@ -109,8 +109,8 @@ export function Footer() {
         </div>
 
         {/* Copyright e Créditos */}
-        <div className="border-t mt-8 pt-6 text-center space-y-2">
-          <p className="text-[8px] sm:text-xs text-gray-500 max-w-[300px] mx-auto px-1">
+        <div className="mt-8 text-center space-y-2">
+            <p className="text-[10px] sm:text-xs md:text-sm text-gray-500 mx-auto">
           &copy; 2025 Associação Vinícius Carvalheido. Todos os direitos reservados.
           </p>
           <p className="text-xs text-gray-400">

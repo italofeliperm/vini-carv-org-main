@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useMobileMenu } from "@/contexts/MobileMenuContext";
 import { motion, AnimatePresence } from "framer-motion";
 import { DonationModal } from "@/components/ui/donation-modal";
 import { VolunteerModal } from "@/components/ui/volunteer-modal";
@@ -51,30 +52,37 @@ const scrollToSection = (
 export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
+  const { isMenuOpen, setIsMenuOpen } = useMobileMenu();
   const [isDonationModalOpen, setIsDonationModalOpen] = useState(false);
   const [isVolunteerModalOpen, setIsVolunteerModalOpen] = useState(false);
 
-  usePreventScroll(isOpen);
+  usePreventScroll(isMenuOpen);
 
-  // Fechar o menu mobile quando a tela for redimensionada para desktop
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) {
-        setIsOpen(false);
+        setIsMenuOpen(false);
       }
     };
 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [setIsMenuOpen]);
+
 
   return (
-    <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-50">
-      <nav className="container mx-auto px-4 h-full flex items-center justify-between">
-        <Link href="/" className="text-xl font-bold text-blue-900">
+    <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-110">
+      <nav className="container mx-auto px-4 h-full flex items-center justify-between relative z-110">
+        <a
+          href="/#home"
+          onClick={(e) => {
+          e.preventDefault();
+          scrollToSection("/#home", undefined, router);
+          }}
+          className="text-xl font-bold text-blue-900 cursor-pointer"
+        >
           AVC
-        </Link>
+        </a>
 
         {/* Links da navbar com efeito de sublinhado */}
         <div className="hidden md:flex items-center gap-6">
@@ -96,11 +104,11 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden relative z-50 p-2 hover:bg-blue-50 rounded-lg transition-colors"
-          onClick={() => setIsOpen(!isOpen)}
-          aria-label={isOpen ? "Fechar menu" : "Abrir menu"}
+            className="md:hidden relative z-90 p-2 hover:bg-blue-50 rounded-lg transition-colors"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
         >
-          {isOpen ? (
+            {isMenuOpen ? (
             <X size={24} className="text-blue-900" />
           ) : (
             <Menu size={24} className="text-blue-900" />
@@ -110,12 +118,12 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <AnimatePresence>
-        {isOpen && (
+        {isMenuOpen && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-white z-40 md:hidden"
+            className="fixed inset-0 bg-white z-80 md:hidden"
           >
             <div className="flex flex-col h-[100dvh] pt-20 px-4">
               <div className="flex-1 flex flex-col justify-center space-y-8">
@@ -131,7 +139,7 @@ export default function Navbar() {
                       href={item.href}
                       onClick={(e) => {
                         e.preventDefault();
-                        scrollToSection(item.href, setIsOpen, router);
+                        scrollToSection(item.href, setIsMenuOpen, router);
                       }}
                       className="relative text-2xl text-blue-900 hover:text-blue-600 transition-colors group inline-block py-1"
                     >
@@ -146,25 +154,25 @@ export default function Navbar() {
                   transition={{ duration: 0.3, delay: 0.2 }}
                   className="space-y-4 pt-8"
                 >
-                  <Button
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg py-6"
+                    <Button
+                    className="w-full bg-blue-600 text-white hover:bg-white hover:text-blue-600 border-2 border-blue-600 text-lg py-6 transition-colors"
                     onClick={() => {
                       setIsDonationModalOpen(true);
-                      setIsOpen(false);
+                        setIsMenuOpen(false);
                     }}
-                  >
+                    >
                     Doe Agora
-                  </Button>
-                  <Button
+                    </Button>
+                    <Button
                     variant="outline"
-                    className="w-full bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-100 hover:border-blue-700 hover:text-blue-700 text-lg py-6 transition-all duration-300"
+                    className="w-full bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-lg py-6 transition-colors"
                     onClick={() => {
                       setIsVolunteerModalOpen(true);
-                      setIsOpen(false);
+                        setIsMenuOpen(false);
                     }}
-                  >
+                    >
                     Seja Voluntário
-                  </Button>
+                    </Button>
                 </motion.div>
               </div>
             </div>

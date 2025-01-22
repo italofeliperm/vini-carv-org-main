@@ -76,7 +76,7 @@ export function DonationModal({ isOpen, onClose }: DonationModalProps) {
               </div>
 
               <div className="space-y-4 sm:space-y-6">
-                <Card className="p-3 sm:p-4 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
+                <Card className="p-3 sm:p-4 bg-gradient-to-br from-blue-600 to-blue-700 text-white border-0">
                   <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">
                     PIX
                   </h3>
@@ -105,7 +105,7 @@ export function DonationModal({ isOpen, onClose }: DonationModalProps) {
                   </Button>
                 </Card>
 
-                <Card className="p-3 sm:p-4 bg-white">
+                <Card className="p-3 sm:p-4 bg-white border-0">
                   <h3 className="text-lg sm:text-xl font-semibold text-blue-600 mb-2 sm:mb-3">
                   Transferência Bancária
                   </h3>

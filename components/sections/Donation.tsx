@@ -48,7 +48,7 @@ export default function Donation() {
             Escolha a melhor forma de participar:
           </p>
 
-          <Card className="p-8 mb-8 bg-gradient-to-br from-blue-600 to-blue-700 text-white">
+            <Card className="p-8 mb-8 bg-gradient-to-br from-blue-600 to-blue-700 text-white border-0">
             <h3 className="text-2xl font-semibold mb-4">PIX</h3>
             <p className="mb-2">Chave PIX (E-mail):</p>
             <p className="text-lg font-medium mb-4">{PIX_KEY}</p>
@@ -71,7 +71,7 @@ export default function Donation() {
             </Button>
           </Card>
 
-            <Card className="p-8 bg-white">
+            <Card className="p-8 bg-white border-0">
             <h3 className="text-xl font-semibold text-blue-600 mb-4">Transferência Bancária</h3>
             <div className="text-left max-w-md mx-auto">
               <p className="text-gray-600">Associação Vinícius Carvalheido</p>
