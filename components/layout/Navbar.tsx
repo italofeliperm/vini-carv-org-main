@@ -42,7 +42,7 @@ const scrollToSection = (
 
     const element = document.getElementById(sectionId);
     if (element) {
-      const offset = 80;
+      const offset = -15;
       const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition - offset;
 
