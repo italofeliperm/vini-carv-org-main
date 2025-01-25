@@ -13,7 +13,7 @@ import { VolunteerModal } from "@/components/ui/volunteer-modal";
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import { FloatingButton } from "@/components/ui/floating-button";
 import { Footer } from "@/components/layout/Footer";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 const historicalPhotos = [
   {
@@ -89,13 +89,27 @@ const milestones = [
 
 export default function NossaHistoria() {
   const router = useRouter();
+  const pathname = usePathname();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isVolunteerModalOpen, setIsVolunteerModalOpen] = useState(false);
   const [isDonationModalOpen, setIsDonationModalOpen] = useState(false);
 
   const handleNavigation = (sectionId: string) => {
-    router.push(`/#${sectionId}`);
+    router.replace('/');
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const offset = -15;
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - offset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 100);
   };
+
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -115,8 +129,8 @@ export default function NossaHistoria() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10"
           style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80")',
-          filter: "grayscale(50%)",
+            backgroundImage: 'url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80")',
+            filter: "grayscale(50%)",
           }}
         />
 
@@ -343,16 +357,15 @@ export default function NossaHistoria() {
                         currentSlide === index
                           ? 0
                           : currentSlide > index
-                          ? -100
-                          : 100,
+                            ? -100
+                            : 100,
                     }}
                     transition={{
                       duration: 0.8,
                       ease: "easeInOut",
                     }}
-                    className={`absolute inset-0 ${
-                      currentSlide === index ? "z-10" : "z-0"
-                    }`}
+                    className={`absolute inset-0 ${currentSlide === index ? "z-10" : "z-0"
+                      }`}
                   >
                     <Image
                       src={photo.url}
@@ -381,11 +394,10 @@ export default function NossaHistoria() {
                     <button
                       key={index}
                       onClick={() => setCurrentSlide(index)}
-                      className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                        currentSlide === index
-                          ? "bg-white w-6"
-                          : "bg-white/50 hover:bg-white/70"
-                      }`}
+                      className={`w-2 h-2 rounded-full transition-all duration-300 ${currentSlide === index
+                        ? "bg-white w-6"
+                        : "bg-white/50 hover:bg-white/70"
+                        }`}
                       aria-label={`Ir para slide ${index + 1}`}
                     />
                   ))}
@@ -406,7 +418,7 @@ export default function NossaHistoria() {
                 <Button
                   size="lg"
                   className="bg-blue-600 text-white hover:bg-white hover:text-blue-600 border-2 border-blue-600 transition-colors"
-                  onClick={() => handleNavigation("volunteer")}
+                  onClick={() => setIsVolunteerModalOpen(true)}
                 >
                   Seja Voluntário <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
@@ -414,7 +426,7 @@ export default function NossaHistoria() {
                   size="lg"
                   variant="outline"
                   className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors"
-                  onClick={() => handleNavigation("donate")}
+                  onClick={() => setIsDonationModalOpen(true)}
                 >
                   Faça uma Doação
                 </Button>

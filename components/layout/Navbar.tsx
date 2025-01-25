@@ -28,43 +28,48 @@ const scrollToSection = (
   const isHome = window.location.pathname === "/";
   const sectionId = href.replace("/#", "");
 
-  const scrollToElement = () => {
-    if (sectionId === "home") {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-      if (setIsOpen) {
-        setIsOpen(false);
-      }
-      return;
-    }
-
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const offset = -15;
-      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-      const offsetPosition = elementPosition - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth",
-      });
-
-      if (setIsOpen) {
-        setIsOpen(false);
-      }
-    }
-  };
-
   if (!isHome) {
-    router?.push("/").then(() => {
-      setTimeout(scrollToElement, 100);
+    router.replace("/");
+    if (setIsOpen) {
+      setIsOpen(false);
+    }
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const offset = -15;
+        const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - offset;
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth",
+        });
+      }
+    }, 100);
+    return;
+  }
+
+  // For home page, scroll to section
+  const element = document.getElementById(sectionId);
+  if (element) {
+    const offset = -15;
+    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth",
     });
-  } else {
-    scrollToElement();
+  }
+
+  if (setIsOpen) {
+    setIsOpen(false);
   }
 };
+
+
+
+
+
 
 
 
@@ -80,13 +85,32 @@ export default function Navbar() {
   usePreventScroll(isMenuOpen);
 
   useEffect(() => {
-    if (window.location.hash) {
-      const hash = window.location.hash;
-      setTimeout(() => {
-        scrollToSection(hash, undefined, router);
-      }, 500);
+    const path = window.location.pathname;
+    if (path === '/') {
+      const sectionId = window.location.hash?.replace('#', '');
+      if (sectionId && sectionId !== 'home') {
+        setTimeout(() => {
+          const element = document.getElementById(sectionId);
+          if (element) {
+            const offset = -15;
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = elementPosition - offset;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: "smooth",
+            });
+          }
+        }, 100);
+      }
     }
-  }, []);
+  }, [pathname]); // Using pathname instead of router.asPath for App Router
+
+
+
+
+
+
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -101,8 +125,8 @@ export default function Navbar() {
 
 
   return (
-    <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-110">
-      <nav className="container mx-auto px-4 h-full flex items-center justify-between relative z-110">
+    <header className="fixed top-0 left-0 right-0 h-16 bg-white shadow-sm z-[999]">
+      <nav className="container mx-auto px-4 h-full flex items-center justify-between relative z-[999]">
         <a
           href="/#home"
           onClick={(e) => {
@@ -131,11 +155,24 @@ export default function Navbar() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
+          <Button
+            className="bg-blue-600 text-white hover:bg-white hover:text-blue-600 border-2 border-blue-600 transition-colors"
+            onClick={() => setIsDonationModalOpen(true)}
+          >
+            Doe Agora
+          </Button>
+          <Button
+            variant="outline"
+            className="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors"
+            onClick={() => setIsVolunteerModalOpen(true)}
+          >
+            Seja Voluntário
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden relative z-90 p-2 hover:bg-blue-50 rounded-lg transition-colors"
+          className="md:hidden relative z-[999] p-2 hover:bg-blue-50 rounded-lg transition-colors"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
         >
@@ -154,7 +191,7 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-white z-[100] md:hidden"
+            className="fixed inset-0 bg-white z-[998] md:hidden"
           >
             <div className="flex flex-col h-[100dvh] pt-20 px-4">
               <div className="flex-1 flex flex-col justify-center space-y-8">

@@ -27,7 +27,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         <Providers>
-          <div className="relative min-h-screen">
+          <div className="relative flex min-h-screen flex-col">
             {children}
             <Toaster />
           </div>
