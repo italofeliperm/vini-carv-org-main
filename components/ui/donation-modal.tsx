@@ -28,8 +28,9 @@ export function DonationModal({ isOpen, onClose }: DonationModalProps) {
         title: "Chave PIX copiada!",
         description: "A chave foi copiada para sua área de transferência.",
         className: "z-[999999]",
+        duration: 3000,
       });
-      setTimeout(() => setCopied(false), 2000);
+      setTimeout(() => setCopied(false), 3000);
     } catch (err) {
       toast({
         title: "Erro ao copiar",
