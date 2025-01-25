@@ -121,32 +121,14 @@
 
   .modal-open {
     overflow: hidden !important;
-    position: fixed !important;
-    width: 100% !important;
-    height: 100% !important;
-    inset: 0 !important;
-    padding-right: 15px !important;
   }
 
   html:has(.modal-open) {
     overflow: hidden !important;
-    height: 100% !important;
-    position: fixed !important;
-    width: 100% !important;
-    inset: 0 !important;
   }
 
   body:has(.modal-open) {
     overflow: hidden !important;
-    position: fixed !important;
-    width: 100% !important;
-    height: 100% !important;
-    inset: 0 !important;
-  }
-
-  /* Remove overly restrictive touch-action rules */
-  body:has(.modal-open) * {
-    touch-action: auto !important;
   }
 
   /* Allow scrolling within modal content */
@@ -154,6 +136,7 @@
     touch-action: pan-y !important;
     overflow-y: auto !important;
   }
+
 
 }
 

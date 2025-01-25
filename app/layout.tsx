@@ -19,9 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={cn("min-h-full overflow-x-hidden relative", inter.className)} suppressHydrationWarning>
+      <body
+        className={cn(
+          "min-h-screen bg-background antialiased",
+          inter.className
+        )}
+        suppressHydrationWarning
+      >
         <Providers>
-          <div className="relative">
+          <div className="relative min-h-screen">
             {children}
             <Toaster />
           </div>

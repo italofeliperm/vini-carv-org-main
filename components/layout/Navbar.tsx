@@ -29,9 +29,20 @@ const scrollToSection = (
   const sectionId = href.replace("/#", "");
 
   const scrollToElement = () => {
+    if (sectionId === "home") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      if (setIsOpen) {
+        setIsOpen(false);
+      }
+      return;
+    }
+
     const element = document.getElementById(sectionId);
     if (element) {
-      const offset = 80; // Increased offset to account for padding
+      const offset = 80;
       const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition - offset;
 
@@ -51,12 +62,10 @@ const scrollToSection = (
       setTimeout(scrollToElement, 100);
     });
   } else {
-    // Use RAF to ensure DOM is ready
-    window.requestAnimationFrame(() => {
-      window.requestAnimationFrame(scrollToElement);
-    });
+    scrollToElement();
   }
 };
+
 
 
 
@@ -145,7 +154,6 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            onClick={(e) => e.stopPropagation()}
             className="fixed inset-0 bg-white z-[100] md:hidden"
           >
             <div className="flex flex-col h-[100dvh] pt-20 px-4">
@@ -158,20 +166,19 @@ export default function Navbar() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <Link
+                    <a
                       href={item.href}
                       onClick={(e) => {
                         e.preventDefault();
-                        e.stopPropagation();
                         scrollToSection(item.href, setIsMenuOpen, router);
                       }}
+
                       className="relative text-2xl text-blue-900 hover:text-blue-600 transition-colors group inline-block py-1"
                     >
                       {item.title}
                       <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full" />
-                    </Link>
+                    </a>
                   </motion.div>
-
                 ))}
                 <motion.div
                   initial={{ x: -20, opacity: 0 }}
