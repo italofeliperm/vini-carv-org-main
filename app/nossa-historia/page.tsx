@@ -126,13 +126,16 @@ export default function NossaHistoria() {
       {/* Hero Section */}
       <section className="bg-blue-900 h-[60vh] md:h-[70vh] relative flex items-center justify-center">
         {/* Background Image */}
-        <div
-          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-10"
-          style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80")',
-            filter: "grayscale(50%)",
-          }}
-        />
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/assets/nossa-historia.png"
+            alt="Nossa História"
+            fill
+            className="object-cover opacity-10"
+            style={{ filter: "grayscale(50%)" }}
+            priority
+          />
+        </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
