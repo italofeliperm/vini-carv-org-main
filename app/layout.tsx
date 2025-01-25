@@ -19,17 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={cn("overflow-x-hidden", inter.className)}>
-        <Providers
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-          <Toaster />
+      <body className={cn("min-h-full overflow-x-hidden relative", inter.className)} suppressHydrationWarning>
+        <Providers>
+          <div className="relative">
+            {children}
+            <Toaster />
+          </div>
         </Providers>
       </body>
     </html>
   );
 }
+

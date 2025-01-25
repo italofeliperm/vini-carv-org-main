@@ -1,0 +1,18 @@
+0 verbose cli /Users/italofelipe/.nvm/versions/node/v23.6.0/bin/node /Users/italofelipe/.nvm/versions/node/v23.6.0/bin/npm
+1 info using npm@11.0.0
+2 info using node@v23.6.0
+3 silly config load:file:/Users/italofelipe/.nvm/versions/node/v23.6.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/italofelipe/Desktop/vini-carv-org-main/.npmrc
+5 silly config load:file:/Users/italofelipe/.npmrc
+6 silly config load:file:/Users/italofelipe/.nvm/versions/node/v23.6.0/etc/npmrc
+7 verbose title npm config get registry
+8 verbose argv "config" "get" "registry"
+9 verbose logfile logs-max:10 dir:/Users/italofelipe/Desktop/vini-carv-org-main/.npm-cache/_logs/2025-01-25T11_18_38_601Z-
+10 verbose logfile /Users/italofelipe/Desktop/vini-carv-org-main/.npm-cache/_logs/2025-01-25T11_18_38_601Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 verbose cwd /Users/italofelipe/Desktop/vini-carv-org-main
+13 verbose os Darwin 24.1.0
+14 verbose node v23.6.0
+15 verbose npm  v11.0.0
+16 verbose exit 0
+17 info ok

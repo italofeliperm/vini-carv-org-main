@@ -11,9 +11,30 @@ export default function Hero() {
   const [isVolunteerModalOpen, setIsVolunteerModalOpen] = useState(false);
   const [isDonationModalOpen, setIsDonationModalOpen] = useState(false);
   const [isHeartFilled, setIsHeartFilled] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleDonationModalOpen = () => {
+    setIsDonationModalOpen(true);
+    setIsModalOpen(true);
+  };
+
+  const handleDonationModalClose = () => {
+    setIsDonationModalOpen(false);
+    setIsModalOpen(false);
+  };
+
+  const handleVolunteerModalOpen = () => {
+    setIsVolunteerModalOpen(true);
+    setIsModalOpen(true);
+  };
+
+  const handleVolunteerModalClose = () => {
+    setIsVolunteerModalOpen(false);
+    setIsModalOpen(false);
+  };
 
   return (
-    <section className="relative h-screen text-white overflow-hidden max-w-[100vw]">
+    <section className="relative min-h-[calc(100vh-4rem)] text-white">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -23,12 +44,12 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/80 via-blue-800/60 to-blue-600/40" />
 
-      <div className="relative container mx-auto px-6 md:px-8 h-full flex items-center justify-center max-w-[100vw]">
+      <div className="relative container mx-auto px-6 md:px-8 h-[calc(100vh-4rem)] flex items-center justify-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl w-full text-center"
+          className="max-w-3xl w-full text-center -mt-16"
         >
           <span className="text-blue-100 text-lg md:text-xl mb-6 block font-medium">
             Associação Vinícius Carvalheido
@@ -45,16 +66,15 @@ export default function Hero() {
             <Button
               size="lg"
               className="bg-white text-blue-900 hover:bg-blue-50 w-full sm:w-auto text-base sm:text-lg px-8 py-5 transition-all duration-300 ease-in-out flex items-center justify-center gap-2 rounded-md shadow-md"
-              onClick={() => setIsDonationModalOpen(true)}
+              onClick={handleDonationModalOpen}
               onMouseEnter={() => setIsHeartFilled(true)}
               onMouseLeave={() => setIsHeartFilled(false)}
             >
               <span className="inline-flex items-center gap-2">
                 Faça uma Doação
                 <Heart
-                  className={`w-5 h-5 transition-colors duration-300 ease-in-out ${
-                    isHeartFilled ? "text-red-500" : ""
-                  }`}
+                  className={`w-5 h-5 transition-colors duration-300 ease-in-out ${isHeartFilled ? "text-red-500" : ""
+                    }`}
                   fill={isHeartFilled ? "currentColor" : "none"}
                   strokeWidth={2}
                 />
@@ -65,7 +85,7 @@ export default function Hero() {
               size="lg"
               variant="outline"
               className="bg-transparent text-white border border-white hover:bg-blue-600 hover:border-blue-600 hover:text-white w-full sm:w-auto text-base sm:text-lg px-8 py-5 transition-all duration-300 ease-in-out flex items-center justify-center gap-2 rounded-md shadow-md"
-              onClick={() => setIsVolunteerModalOpen(true)}
+              onClick={handleVolunteerModalOpen}
             >
               <span className="inline-flex items-center gap-2">
                 Seja Voluntário
@@ -78,12 +98,12 @@ export default function Hero() {
 
       <DonationModal
         isOpen={isDonationModalOpen}
-        onClose={() => setIsDonationModalOpen(false)}
+        onClose={handleDonationModalClose}
       />
 
       <VolunteerModal
         isOpen={isVolunteerModalOpen}
-        onClose={() => setIsVolunteerModalOpen(false)}
+        onClose={handleVolunteerModalClose}
       />
     </section>
   );

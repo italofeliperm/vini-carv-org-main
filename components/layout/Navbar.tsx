@@ -13,6 +13,7 @@ import { useRouter, usePathname } from "next/navigation";
 
 const menuItems = [
   { title: "Início", href: "/#home" },
+  { title: "Sobre", href: "/#about" },
   { title: "Impacto", href: "/#impact" },
   { title: "Projetos", href: "/#projects" },
   { title: "Galeria", href: "/#gallery" },
@@ -25,29 +26,40 @@ const scrollToSection = (
   router?: any
 ) => {
   const isHome = window.location.pathname === "/";
-  const sectionId = href.split("#")[1];
+  const sectionId = href.replace("/#", "");
+
+  const scrollToElement = () => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const offset = 80; // Increased offset to account for padding
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+
+      if (setIsOpen) {
+        setIsOpen(false);
+      }
+    }
+  };
 
   if (!isHome) {
-    router?.push(`/#${sectionId}`);
-    return;
-  }
-
-  const element = document.getElementById(sectionId);
-  if (element) {
-    const navbarHeight = 64;
-    const elementPosition = element.getBoundingClientRect().top;
-    const offsetPosition = elementPosition + window.scrollY - navbarHeight;
-
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: "smooth",
+    router?.push("/").then(() => {
+      setTimeout(scrollToElement, 100);
     });
-
-    if (setIsOpen) {
-      setIsOpen(false);
-    }
+  } else {
+    // Use RAF to ensure DOM is ready
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(scrollToElement);
+    });
   }
 };
+
+
+
 
 export default function Navbar() {
   const router = useRouter();
@@ -57,6 +69,15 @@ export default function Navbar() {
   const [isVolunteerModalOpen, setIsVolunteerModalOpen] = useState(false);
 
   usePreventScroll(isMenuOpen);
+
+  useEffect(() => {
+    if (window.location.hash) {
+      const hash = window.location.hash;
+      setTimeout(() => {
+        scrollToSection(hash, undefined, router);
+      }, 500);
+    }
+  }, []);
 
   useEffect(() => {
     const handleResize = () => {
@@ -76,8 +97,8 @@ export default function Navbar() {
         <a
           href="/#home"
           onClick={(e) => {
-          e.preventDefault();
-          scrollToSection("/#home", undefined, router);
+            e.preventDefault();
+            scrollToSection("/#home", undefined, router);
           }}
           className="text-xl font-bold text-blue-900 cursor-pointer"
         >
@@ -92,6 +113,7 @@ export default function Navbar() {
               href={item.href}
               onClick={(e) => {
                 e.preventDefault();
+                e.stopPropagation();
                 scrollToSection(item.href, undefined, router);
               }}
               className="relative text-gray-600 hover:text-blue-600 transition-colors group py-1"
@@ -104,11 +126,11 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-            className="md:hidden relative z-90 p-2 hover:bg-blue-50 rounded-lg transition-colors"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
+          className="md:hidden relative z-90 p-2 hover:bg-blue-50 rounded-lg transition-colors"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
         >
-            {isMenuOpen ? (
+          {isMenuOpen ? (
             <X size={24} className="text-blue-900" />
           ) : (
             <Menu size={24} className="text-blue-900" />
@@ -123,7 +145,8 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-white z-80 md:hidden"
+            onClick={(e) => e.stopPropagation()}
+            className="fixed inset-0 bg-white z-[100] md:hidden"
           >
             <div className="flex flex-col h-[100dvh] pt-20 px-4">
               <div className="flex-1 flex flex-col justify-center space-y-8">
@@ -135,18 +158,20 @@ export default function Navbar() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <a
+                    <Link
                       href={item.href}
                       onClick={(e) => {
                         e.preventDefault();
+                        e.stopPropagation();
                         scrollToSection(item.href, setIsMenuOpen, router);
                       }}
                       className="relative text-2xl text-blue-900 hover:text-blue-600 transition-colors group inline-block py-1"
                     >
                       {item.title}
                       <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full" />
-                    </a>
+                    </Link>
                   </motion.div>
+
                 ))}
                 <motion.div
                   initial={{ x: -20, opacity: 0 }}
@@ -154,25 +179,25 @@ export default function Navbar() {
                   transition={{ duration: 0.3, delay: 0.2 }}
                   className="space-y-4 pt-8"
                 >
-                    <Button
+                  <Button
                     className="w-full bg-blue-600 text-white hover:bg-white hover:text-blue-600 border-2 border-blue-600 text-lg py-6 transition-colors"
                     onClick={() => {
                       setIsDonationModalOpen(true);
-                        setIsMenuOpen(false);
+                      setIsMenuOpen(false);
                     }}
-                    >
+                  >
                     Doe Agora
-                    </Button>
-                    <Button
+                  </Button>
+                  <Button
                     variant="outline"
                     className="w-full bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-lg py-6 transition-colors"
                     onClick={() => {
                       setIsVolunteerModalOpen(true);
-                        setIsMenuOpen(false);
+                      setIsMenuOpen(false);
                     }}
-                    >
+                  >
                     Seja Voluntário
-                    </Button>
+                  </Button>
                 </motion.div>
               </div>
             </div>

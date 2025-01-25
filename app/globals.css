@@ -76,6 +76,20 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  input, textarea, select {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+    -webkit-text-size-adjust: 100%;
+    max-height: none !important;
+    touch-action: manipulation;
+  }
+
+  @media screen and (max-width: 768px) {
+    input, textarea, select {
+      font-size: 16px !important;
+      touch-action: manipulation;
+    }
+  }
 }
 
 @layer utilities {
@@ -84,5 +98,62 @@
     border-top: none !important;
     border-bottom: none !important;
   }
+
+  /* Toast styles */
+  [role="status"][data-sonner-toast],
+  [role="alert"][data-sonner-toast] {
+    z-index: 999999 !important;
+  }
+
+  [data-sonner-toaster] {
+    z-index: 999999 !important;
+    position: fixed !important;
+  }
+
+  .toaster {
+    position: fixed !important;
+    z-index: 999999 !important;
+  }
+
+  .toaster > * {
+    z-index: 999999 !important;
+  }
+
+  .modal-open {
+    overflow: hidden !important;
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+    inset: 0 !important;
+    padding-right: 15px !important;
+  }
+
+  html:has(.modal-open) {
+    overflow: hidden !important;
+    height: 100% !important;
+    position: fixed !important;
+    width: 100% !important;
+    inset: 0 !important;
+  }
+
+  body:has(.modal-open) {
+    overflow: hidden !important;
+    position: fixed !important;
+    width: 100% !important;
+    height: 100% !important;
+    inset: 0 !important;
+  }
+
+  /* Remove overly restrictive touch-action rules */
+  body:has(.modal-open) * {
+    touch-action: auto !important;
+  }
+
+  /* Allow scrolling within modal content */
+  body:has(.modal-open) .modal-content {
+    touch-action: pan-y !important;
+    overflow-y: auto !important;
+  }
+
 }
 

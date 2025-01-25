@@ -18,18 +18,24 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white">
       <Navbar />
-      <div id="home">
+      <section id="home" className="pt-16">
         <Hero />
-      </div>
-      <About />
-      <div id="impact">
+      </section>
+      <section id="about" className="pt-16">
+        <About />
+      </section>
+      <section id="impact" className="pt-16">
         <Impact />
-      </div>
-      <div id="projects">
+      </section>
+      <section id="projects" className="pt-16">
         <Projects />
-      </div>
-      <Gallery />
-      <Donation />
+      </section>
+      <section id="gallery" className="pt-16">
+        <Gallery />
+      </section>
+      <section id="donate" className="pt-16">
+        <Donation />
+      </section>
       <Footer />
       <FloatingButton />
     </main>
